@@ -289,7 +289,7 @@ body {
 				                            <div class="row clearfix">
                                                     <div class="col-md-1 column">
                                                     </div>
-                                            <div class="col-md-10 column">
+                                            <div class="col-md-11 column">
                                                 <div class="row">
  
     <div class="thumbnail">
@@ -301,8 +301,8 @@ body {
               <div class="col-md-6 column">
                   <a href="#" class="btn btn-primary" role="button">Details</a> 
               </div>
-              <div class="col-md-6 column navbar-right">
-                  <a href="#" class="btn btn-default" role="button">Buy Now</a>
+              <div class="col-md-6 column">
+                  <a href="#" class="btn btn-default" style="float: right" role="button">Buy Now</a>
               </div>
           </div>
 <!--        <p style="margin-right:0px"><a href="#" class="btn btn-primary" role="button">Details</a> <a href="#" class="btn btn-default" role="button">Buy Now</a></p>-->
@@ -310,8 +310,10 @@ body {
     </div>
   </div>
 								            </div>
+<!--
 								            <div class="col-md-1 column">
 								            </div>
+-->
                                                 </div>
 						                      </div>
                                         <?php
@@ -345,7 +347,7 @@ body {
   <div class="row clearfix">
     <div class="col-md-12 column">
       <nav class="navbar navbar-default navbar-bottom2" role="navigation">
-                
+           
                     <ul class="nav navbar-nav">
                         <li><a></a></li>
             <li>
@@ -365,6 +367,7 @@ body {
             </li>
                         
           </ul>
+               
                     <ul class="nav navbar-nav navbar-right ">
                         <li>
                             <a  href="#top">Back to top</a>
