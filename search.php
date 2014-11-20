@@ -290,81 +290,52 @@
      <p>&nbsp;</p>
 		</div>
 	</div>
-	<div class="row clearfix">
-		<div class="col-md-12 column">
-			<div class="row clearfix">
-				<div class="col-md-1 column">
-				</div>
-				<div class="col-md-10 column">
-                    <?php 
-                        for ($x = 0; $x <= 2; $x++) {
-                           ?>
-                            <div class="row clearfix">
-                                
-                                    <?php
-                                            for ($y = 0; $y <= 2; $y++) {
-                                        ?>
-                                            <div class="col-md-4 column">
-				                            <div class="row clearfix">
-                                                    <div class="col-md-1 column">
-                                                    </div>
-                                            <div class="col-md-10 column">
-                                                <center>
-									           <img alt="140x140" width="150px" src="i6.png">
-                                                </center>
-     <p>&nbsp;</p>
-									           <dl>
-										<dt>
-											Description lists
-										</dt>
-										<dd>
-											A description list is perfect for defining terms.
-										</dd>
-										<dt>
-											Euismod
-										</dt>
-										<dd>
-											Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.
-										</dd>
-										<dd>
-											Donec id elit non mi porta gravida at eget metus.
-										</dd>
-										<dt>
-											Malesuada porta
-										</dt>
-										<dd>
-											Etiam porta sem malesuada magna mollis euismod.
-										</dd>
-										<dt>
-											Felis euismod semper eget lacinia
-										</dt>
-										<dd>
-											Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-										</dd>
-									</dl>
-								            </div>
-								            <div class="col-md-1 column">
-								            </div>
-                                                </div>
-						                      </div>
-                                        <?php
-                                            } 
-                                        ?></div><?php
-                        } 
-                    ?>
-					
-				</div>
-				<div class="col-md-1 column">
-				</div>
-			</div>
-		</div>
-	</div>
+
 	<div class="row clearfix">
 		<div class="col-md-12 column">
 		</div>
 	</div>
     
             <p>&nbsp;</p>
+            <div class="row clearfix">
+            <div class="col-md-2 column">
+            </div>
+		<div class="col-md-4 column">
+			<img alt="140x140" width="150px" src="i6.png" />
+		</div>
+		<div class="col-md-6 column">
+			<p>
+				Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
+			</p>
+		</div>
+	</div>
+	<p>&nbsp;</p>
+	<div class="row clearfix">
+		<div class="col-md-2 column">
+            </div>
+		<div class="col-md-4 column">
+			<img alt="140x140" width="150px" src="i6.png" />
+		</div>
+		<div class="col-md-6 column">
+			<p>
+				Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
+			</p>
+		</div>
+	</div>
+	<p>&nbsp;</p>
+	<div class="row clearfix">
+		<div class="col-md-2 column">
+            </div>
+		<div class="col-md-4 column">
+			<img alt="140x140" width="150px" src="i6.png" />
+		</div>
+		<div class="col-md-6 column">
+			<p>
+				Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
+			</p>
+		</div>
+	</div>
+	<p>&nbsp;</p>
 	<div class="row clearfix">
 		<div class="col-md-12 column">
 			<nav class="navbar navbar-default" role="navigation">
