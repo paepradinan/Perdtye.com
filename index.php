@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <style>
+      @font-face { font-family: Sukhumvit; src: url('SukhumvitSet.ttc'); } 
+      Sukhumvit {
+          font-family: Sukhumvit
+      }
+  </style>
   <a name="top"></a>
   <meta charset="utf-8">
   <title>Perdtye - Home</title>
@@ -44,6 +50,12 @@
 				</div>
 				
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        
+						<li>
+                            <a><b><Sukhumvit>"ประดินันทน์ เพชรเรืองรอง"</Sukhumvit></b></a>
+                        </li>
+                    </ul>
 <!--
 					<ul class="nav navbar-nav">
 						<li class="active">
@@ -79,6 +91,11 @@
 					</ul>
 -->
 					<ul class="nav navbar-nav navbar-right">
+<!--
+                        <li>
+                            <a><b>Hi...Pae</b></a>
+                        </li>
+-->
                         <li>
 							<a href="#">Login</a>
 						</li>
@@ -131,7 +148,6 @@
             
 		  <p>&nbsp;</p>
 		  <p>&nbsp;</p>
-            <p>&nbsp;</p>
 		</div>
 	</div>
     
@@ -140,7 +156,13 @@
 		</div>
 		<div class="col-md-10 column">
 			<div class="row clearfix">
-				<div class="col-md-2 column">
+                    <div class="col-md-3 column">
+                        <div class="row clearfix">
+                    <img src="logo.png" width="100%"/>
+		          </div></div>
+                <div class="col-md-9 column" >
+                    <div class="row clearfix" style="vertical-align:middle">
+                    <div class="col-md-2 column">
 					<select class="form-control" id="select">
                         <option>Category</option>
                         <option>2</option>
@@ -157,6 +179,32 @@
 				<div class="col-md-1 column">
 					 <button type="button" class="btn btn-info">Search</button>
 				</div>
+                        </div>
+		          </div>
+<!--
+                <div class="col-md-2 column">
+                    <img src="pae.jpg" height="38px"/>
+		          </div>
+-->
+<!--
+				<div class="col-md-2 column">
+					<select class="form-control" id="select">
+                        <option>Category</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                      </select>
+				</div>
+				<div class="col-md-7 column">
+                    <div class="form-group">
+                  <input type="text" class="form-control" id="inputDefault" placeholder="Search">
+                </div>
+				</div>
+				<div class="col-md-1 column">
+					 <button type="button" class="btn btn-info">Search</button>
+				</div>
+-->
 			</div>
 		</div>
 		<div class="col-md-1 column">
@@ -221,7 +269,6 @@
 	<div class="row clearfix">
 		<div class="col-md-12 column">
             
-     <p>&nbsp;</p>
      <p>&nbsp;</p>
 		</div>
 	</div>
