@@ -3917,6 +3917,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     border-radius: 0;
   }
 }
+.navbar-bottom2{
+    right: 0;
+    left: 0;
+    margin-bottom: 0px;
+    z-index: 1030;
+}
 .navbar-fixed-top,
 .navbar-fixed-bottom {
   position: fixed;
@@ -4168,6 +4174,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default {
   background-color: #ffffff;
   border-color: #eeeeee;
+}
+.navbar-default-top {
+  background-color: #ffffee;
+  border-color: #dddddd;
 }
 .navbar-default .navbar-brand {
   color: #777777;
@@ -6464,4 +6474,12 @@ label {
 }
 .pager .disabled > a {
   border-color: #dddddd;
+}
+.bgsearchtop{
+    background-color: white;
+}.bgsearch{
+    margin-top:60px;
+}
+.search{
+    margin-top: 20px;
 }

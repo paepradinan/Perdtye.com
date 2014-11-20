@@ -7,6 +7,14 @@
           font-family: Sukhumvit
       }
   </style>
+    <style type="text/css">
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+</style>
   <a name="top"></a>
   <meta charset="utf-8">
   <title>Perdtye - Home</title>
@@ -41,10 +49,10 @@
 </head>
 
 <body>
-<div class="container">
+
 	<div class="row clearfix">
 		<div class="col-md-12 column">
-			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<nav class="navbar navbar-default navbar-default-top navbar-fixed-top" role="navigation">
 				<div class="navbar-header">
 					 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="#">Perdtye</a>
 				</div>
@@ -97,10 +105,10 @@
                         </li>
 -->
                         <li>
-							<a href="/perdtye/login2.html">Login</a>
+							<a href="login2.html">Login</a>
 						</li>
                         <li>
-							<a href="/perdtye/signup.html">Signup</a>
+							<a href="signup.html">Signup</a>
 						</li>
 						<li>
 							<a href="#">Sell</a>
@@ -142,28 +150,25 @@
 			</nav>
 		</div>
 	</div>
-    
-	<div class="row clearfix">
-		<div class="col-md-12 column">
-            
-		  <p>&nbsp;</p>
-		  <p>&nbsp;</p>
-		</div>
-	</div>
-    
-	<div class="row clearfix">
+	<div class="row clearfix bgsearchtop">
 		<div class="col-md-1 column">
 		</div>
-		<div class="col-md-10 column">
+		<div class="col-md-10 column bgsearch">
 			<div class="row clearfix">
                     <div class="col-md-3 column">
                         <div class="row clearfix">
-                    <a href="/perdtye/index.php"><img src="logo.png" width="100%"/></a>
+                    <a href="index.php"><img src="logo.png" width="100%"/></a>
 		          </div></div>
+<<<<<<< Updated upstream
                 <div class="col-md-9 column" >
 
                     <div class="row clearfix" style="vertical-align:middle";>
                     <div class="col-md-2 column" top:"5px">
+=======
+                <div class="col-md-9 column search" >
+                    <div class="row clearfix" style="vertical-align:middle">
+                    <div class="col-md-2 column">
+>>>>>>> Stashed changes
 					<select class="form-control" id="select">
                         <option>Category</option>
                         <option>2</option>
@@ -212,7 +217,6 @@
 		 
 		</div>
 	</div>
-    
 <!--
      <p>&nbsp;</p>
 	<div class="row clearfix">
@@ -273,6 +277,7 @@
      <p>&nbsp;</p>
 		</div>
 	</div>
+    <div class="container">
 	<div class="row clearfix">
 		<div class="col-md-12 column">
 			<div class="row clearfix">
@@ -351,17 +356,19 @@
 	
 
 
-  <!--BOTTOM-->
+  
    <div class="row clearfix">
     <div class="col-md-12 column">
     </div>
   </div>
-     <p>&nbsp;</p>
+        </div>
+    <!--BOTTOM-->
   <div class="row clearfix">
     <div class="col-md-12 column">
-      <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+      <nav class="navbar navbar-default navbar-bottom2" role="navigation">
                 
                     <ul class="nav navbar-nav">
+                        <li><a></a></li>
             <li>
               <a href="#">FAQ</a>
             </li>
@@ -389,7 +396,7 @@
                     </ul></nav>
     </div>
   </div>
-</div>
+
   <!--BOTTOM-->
 
 
