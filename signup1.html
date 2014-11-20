@@ -30,6 +30,7 @@ body {
 	<link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
+    <link href="css/datepicker.css" rel="stylesheet">
 
   <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
   <!--[if lt IE 9]>
@@ -46,6 +47,7 @@ body {
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/scripts.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
 </head>
 
 <body>
@@ -531,7 +533,13 @@ body {
   </div>
 
   <!--BOTTOM-->
-
+    <script>
+      $('.datepicker').datepicker({
+        format: "dd/mm/yyyy",
+        autoclose: true,
+        todayHighlight: true
+      });
+    </script>
 
 </body>
 </html>
