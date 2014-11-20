@@ -158,7 +158,7 @@
 			<div class="row clearfix">
                     <div class="col-md-3 column">
                         <div class="row clearfix">
-                    <img src="logo.png" width="100%"/>
+                    <a href="/perdtye/index.php"><img src="logo.png" width="100%"/></a>
 		          </div></div>
                 <div class="col-md-9 column" >
                     <div class="row clearfix" style="vertical-align:middle">
