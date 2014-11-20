@@ -9,7 +9,7 @@
   </style>
   <a name="top"></a>
   <meta charset="utf-8">
-  <title>Perdtye - Home</title>
+  <title>Perdtye - Search</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
   <meta name="author" content="">
@@ -297,7 +297,7 @@
 	</div>
     
             <p>&nbsp;</p>
-            <div class="row clearfix">
+            <div class="row clearfix" class="jumbotron">
             <div class="col-md-2 column">
             </div>
 		<div class="col-md-4 column">
