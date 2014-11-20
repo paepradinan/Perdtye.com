@@ -161,8 +161,9 @@
                     <a href="/perdtye/index.php"><img src="logo.png" width="100%"/></a>
 		          </div></div>
                 <div class="col-md-9 column" >
-                    <div class="row clearfix" style="vertical-align:middle">
-                    <div class="col-md-2 column">
+
+                    <div class="row clearfix" style="vertical-align:middle";>
+                    <div class="col-md-2 column" top:"5px">
 					<select class="form-control" id="select">
                         <option>Category</option>
                         <option>2</option>
