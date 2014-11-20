@@ -382,7 +382,7 @@ body {
           </ul>
                     <ul class="nav navbar-nav navbar-right ">
                         <li>
-                            <a id="toTop" href="#top">Back to top</a>
+                            <a  href="#top">Back to top</a>
                         </li>
                         <li>
                             <a></a>
