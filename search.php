@@ -158,7 +158,7 @@
                 <div class="col-md-9 column" >
 
                     <div class="row clearfix" style="vertical-align:middle";>
-                    <div class="col-md-2 column" top:"5px">
+                    <div class="col-md-2 column" >
 					<select class="form-control" id="select">
                         <option>Category</option>
                         <option>2</option>
@@ -265,24 +265,24 @@
 <div class="row clearfix">
 <div class="col-md-1 column">
   </div>
-  <div class="col-md-9 column">
+  <div class="col-md-8 column">
   	<a></a>
-    <a href="#" class="btn btn-default">All Listing</a>
+    <a href="#" class="btn btn-default" style="background-color:white;">All Listing</a>
     <a href="#" class="btn btn-default">Auction</a>
     <a href="#" class="btn btn-default">Buy it now</a>
   </div>
+  <div class="col-md-1 column">
+ 	<h4  style="text-align:right">Sort :</h4>
+ </div>
   <div class="col-md-2 column">
-<a href="#" class="btn btn-default">Default</a>
-  <a href="#" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></a>
-  <ul class="dropdown-menu">
-    <li><a href="#">Action</a></li>
-    <li><a href="#">Another action</a></li>
-    <li><a href="#">Something else here</a></li>
-    <li class="divider"></li>
-    <li><a href="#">Separated link</a></li>
-  </ul>
+	<select class="form-control" id="select">
+                        <option>Best Match</option>
+                        <option>Price</option>
+                        <option>Favorite</option>
+                  
+                      </select>
   </div>
-  
+
 </div>
 	<div class="row clearfix">
 		<div class="col-md-12 column">
@@ -304,9 +304,50 @@
 			<img alt="140x140" width="150px" src="i6.png" />
 		</div>
 		<div class="col-md-6 column">
-			<p>
-				Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
-			</p>
+			<p>&nbsp;</p>
+			<dt >
+				IPhone 6 Plus
+			</dt>
+			<p>&nbsp;</p>
+			<dt>
+				Price :$300
+			</dt>
+			<p>&nbsp;</p>
+			<dt>
+				Buy IT NOW!!
+			</dt>
+			<p>&nbsp;</p>
+			<dt>
+				Name Seller : JOhn
+			</dt>
+			
+		</div>
+	</div>
+	<p>&nbsp;</p>
+	<div class="row clearfix">
+		<div class="col-md-2 column">
+            </div>
+		<div class="col-md-4 column">
+			<img alt="140x140" width="150px" src="i6.png" />
+		</div>
+		<div class="col-md-6 column" >
+			<p>&nbsp;</p>
+			<dt >
+				IPhone 6 Plus
+			</dt>
+			<p>&nbsp;</p>
+			<dt>
+				Price :$300
+			</dt>
+			<p>&nbsp;</p>
+			<dt>
+				Buy IT NOW!!
+			</dt>
+			<p>&nbsp;</p>
+			<dt>
+				Name Seller : JOhn
+			</dt>
+			
 		</div>
 	</div>
 	<p>&nbsp;</p>
@@ -317,22 +358,23 @@
 			<img alt="140x140" width="150px" src="i6.png" />
 		</div>
 		<div class="col-md-6 column">
-			<p>
-				Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
-			</p>
-		</div>
-	</div>
-	<p>&nbsp;</p>
-	<div class="row clearfix">
-		<div class="col-md-2 column">
-            </div>
-		<div class="col-md-4 column">
-			<img alt="140x140" width="150px" src="i6.png" />
-		</div>
-		<div class="col-md-6 column">
-			<p>
-				Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
-			</p>
+			<p>&nbsp;</p>
+			<dt >
+				IPhone 6 Plus
+			</dt>
+			<p>&nbsp;</p>
+			<dt>
+				Price :$300
+			</dt>
+			<p>&nbsp;</p>
+			<dt>
+				Buy IT NOW!!
+			</dt>
+			<p>&nbsp;</p>
+			<dt>
+				Name Seller : JOhn
+			</dt>
+			
 		</div>
 	</div>
 	<p>&nbsp;</p>
