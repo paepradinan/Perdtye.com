@@ -114,7 +114,7 @@ body {
 							<a href="#">Sell</a>
 						</li>
                         <li>
-							<a href="#">Account</a>
+							<a href="account.html">Account</a>
 						</li>
                         <li>
 							<a href="#">Logout</a>
