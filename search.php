@@ -87,7 +87,7 @@
 			<div class="row clearfix">
                     <div class="col-md-3 column">
                         <div class="row clearfix">
-                    <a href="index.php"><img src="logo.png" width="100%"/></a>
+                    <a href="index.php"><img src="img/logo.png" width="100%"/></a>
 		          </div></div>
 
                 <div class="col-md-9 column search" >
@@ -170,7 +170,7 @@
             <div class="col-md-2 column">
             </div>
 		<div class="col-md-4 column">
-			<img alt="140x140" width="150px" src="i6.png" />
+			<img alt="140x140" width="150px" src="img/i6.png" />
 		</div>
 		<div class="col-md-6 column">
 			<p>&nbsp;</p>
@@ -199,7 +199,7 @@
 		<div class="col-md-2 column">
             </div>
 		<div class="col-md-4 column">
-			<img alt="140x140" width="150px" src="i6.png" />
+			<img alt="140x140" width="150px" src="img/i6.png" />
 		</div>
 		<div class="col-md-6 column" >
 			<p>&nbsp;</p>
@@ -228,7 +228,7 @@
             </div>
        		
 				<div class="col-md-4 column ">
-					<img alt="140x140" width="150px" src="i6.png" />
+					<img alt="140x140" width="150px" src="img/i6.png" />
 				</div>
 				<div class="col-md-6 column">
 					<p>&nbsp;</p>

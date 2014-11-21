@@ -158,7 +158,7 @@
 			<div class="row clearfix">
                     <div class="col-md-3 column">
                         <div class="row clearfix">
-                    <a href="/perdtye/index.php"><img src="logo.png" width="100%"/></a>
+                    <a href="/perdtye/index.php"><img src="img/logo.png" width="100%"/></a>
 		          </div></div>
                 <div class="col-md-9 column" >
                     <div class="row clearfix" style="vertical-align:middle">
@@ -228,7 +228,7 @@
 				</ol>
 				<div class="carousel-inner">
 					<div class="item">
-                        <right><img alt="" src="i6.png"></right>
+                        <right><img alt="" src="img/i6.png"></right>
 						
 						<div class="carousel-caption">
 							<h4>
@@ -240,7 +240,7 @@
 						</div>
 					</div>
 					<div class="item">
-						<img alt="" src="i6.png">
+						<img alt="" src="img/i6.png">
 						<div class="carousel-caption">
 							<h4>
 								Second Thumbnail label
@@ -251,7 +251,7 @@
 						</div>
 					</div>
 					<div class="item active">
-						<img alt="" src="i6.png">
+						<img alt="" src="img/i6.png">
 						<div class="carousel-caption">
 							<h4>
 								Third Thumbnail label
@@ -292,7 +292,7 @@
                                                     </div>
                                             <div class="col-md-10 column">
                                                 <center>
-									           <img alt="140x140" width="150px" src="i6.png">
+									           <img alt="140x140" width="150px" src="img/i6.png">
                                                 </center>
      <p>&nbsp;</p>
 									           <dl>
