@@ -5455,6 +5455,17 @@ a.list-group-item-danger.active:focus {
   padding: 9px;
   border-radius: 3px;
 }
+.well-shadow{
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #f4f4f4;
+  border: 1px solid #e3e3e3;
+  border-radius: 10px;
+  -webkit-box-shadow: inset 5 5px 1px rgba(0, 0, 0, 0.05);
+  box-shadow:  5px 5px 5px #888888;
+}
+
 .close {
   float: right;
   font-size: 19.5px;
