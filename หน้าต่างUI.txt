@@ -1,4 +1,4 @@
-﻿หน้าต่าง UI
+หน้าต่าง UI
 1. Home no login — X
 2. Home login — X
 3. Search — X
@@ -12,9 +12,9 @@
 11. Sign Up — X
 12. Sign up Confirm
 13. Sign Up Success
-14. Profile — X
+14. Profile(Account) — X
 15. Profile-History
-16. Profile-Sell
+16. Profile-Sell — X
 <<<<<<< HEAD
 17. Edit Profile - X
 18. Q/A - X
