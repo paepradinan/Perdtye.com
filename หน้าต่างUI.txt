@@ -7,7 +7,7 @@
 6. Status Forget — X
 7. Report — X
 8. Report-Good — X
-9. Report-Confirm
+9. Report-Confirm —X
 10. Report-Submitted
 11. Sign Up — X
 12. Sign up Confirm
