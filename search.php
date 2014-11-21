@@ -256,41 +256,45 @@
 	</div>
 </div>
 	<p>&nbsp;</p>
-	<div class="row clearfix">
-		<div class="col-md-12 column">
-			<nav class="navbar navbar-default" role="navigation">
-                
+    </div>
+    
+	    <!--BOTTOM-->
+  <div class="row clearfix">
+    <div class="col-md-12 column">
+      <nav class="navbar navbar-default navbar-bottom2" role="navigation">
+           
                     <ul class="nav navbar-nav">
-						<li>
-							<a href="#">FAQ</a>
-						</li>
-						<li>
-							<a href="#">About</a>
-						</li>
+                        <li><a></a></li>
+            <li>
+              <a href="#">FAQ</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
                         <li>
-							<a href="#">Report</a>
-						</li>
+              <a href="#">Report</a>
+            </li>
                         <li>
-							<a href="#">Privacy</a>
-						</li>
+              <a href="#">Privacy</a>
+            </li>
                         <li>
-							<a href="#">Term of use</a>
-						</li>
+              <a href="#">Term of use</a>
+            </li>
                         
-					</ul>
-                    <ul class="nav navbar-nav navbar-right">
+          </ul>
+               
+                    <ul class="nav navbar-nav navbar-right ">
                         <li>
-                            <a id="toTop" href="#top">Back to top</a>
+                            <a  href="#top">Back to top</a>
                         </li>
                         <li>
                             <a></a>
                         </li>
-                    </ul>
+                    </ul></nav>
+    </div>
+  </div>
 
-				
-			</nav>
-		</div>
-	</div>
-</div>
+  <!--BOTTOM-->
+
 </body>
 </html>

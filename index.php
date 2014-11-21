@@ -296,10 +296,10 @@ body {
       <img src="i6.png" >
       <div class="caption">
         <h3>iPhone6 64gb Gold</h3>
-        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit. ...</p>
           <div class="row clearfix">
               <div class="col-md-6 column">
-                  <a href="#" class="btn btn-primary" role="button">Details</a> 
+                <h4 style="color:red;">Price : $300.21</h4>
               </div>
               <div class="col-md-6 column">
                   <a href="#" class="btn btn-default" style="float: right" role="button">Buy Now</a>
