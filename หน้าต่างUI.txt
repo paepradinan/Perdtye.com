@@ -13,15 +13,12 @@
 12. Sign up Confirm
 13. Sign Up Success
 14. Profile(Account) — X
-15. Profile-History
+15. Profile-History — X
 16. Profile-Sell — X
-<<<<<<< HEAD
+
 17. Edit Profile - X
 18. Q/A - X
-=======
-17. Edit Profile - x
-18. Q/A -X
->>>>>>> FETCH_HEAD
+
 19. Q/A Sent
 20. Sell Auction Type
 21. Sell Direct Type
