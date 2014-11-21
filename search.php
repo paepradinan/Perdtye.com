@@ -56,46 +56,8 @@
                             <a><b><Sukhumvit>"ประดินันทน์ เพชรเรืองรอง"</Sukhumvit></b></a>
                         </li>
                     </ul>
-<!--
-					<ul class="nav navbar-nav">
-						<li class="active">
-							<a href="#">Link</a>
-						</li>
-						<li>
-							<a href="#">Link</a>
-						</li>
-						<li class="dropdown">
-							 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown<strong class="caret"></strong></a>
-							<ul class="dropdown-menu">
-								<li>
-									<a href="#">Action</a>
-								</li>
-								<li>
-									<a href="#">Another action</a>
-								</li>
-								<li>
-									<a href="#">Something else here</a>
-								</li>
-								<li class="divider">
-								</li>
-								<li>
-									<a href="#">Separated link</a>
-								</li>
-								<li class="divider">
-								</li>
-								<li>
-									<a href="#">One more separated link</a>
-								</li>
-							</ul>
-						</li>
-					</ul>
--->
+
 					<ul class="nav navbar-nav navbar-right">
-<!--
-                        <li>
-                            <a><b>Hi...Pae</b></a>
-                        </li>
--->
                         <li>
 							<a href="#">Sell</a>
 						</li>
@@ -110,27 +72,6 @@
                             <a></a>
                         </li>
                         
-<!--
-						<li class="dropdown">
-							 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown<strong class="caret"></strong></a>
-							<ul class="dropdown-menu">
-								<li>
-									<a href="#">Action</a>
-								</li>
-								<li>
-									<a href="#">Another action</a>
-								</li>
-								<li>
-									<a href="#">Something else here</a>
-								</li>
-								<li class="divider">
-								</li>
-								<li>
-									<a href="#">Separated link</a>
-								</li>
-							</ul>
-						</li>
--->
 					</ul>
 				</div>
 				
@@ -147,6 +88,7 @@
 	</div>
     
 	<div class="row clearfix">
+		
 		<div class="col-md-1 column">
 		</div>
 		<div class="col-md-10 column">
@@ -177,30 +119,7 @@
 				</div>
                         </div>
 		          </div>
-<!--
-                <div class="col-md-2 column">
-                    <img src="pae.jpg" height="38px"/>
-		          </div>
--->
-<!--
-				<div class="col-md-2 column">
-					<select class="form-control" id="select">
-                        <option>Category</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                      </select>
-				</div>
-				<div class="col-md-7 column">
-                    <div class="form-group">
-                  <input type="text" class="form-control" id="inputDefault" placeholder="Search">
-                </div>
-				</div>
-				<div class="col-md-1 column">
-					 <button type="button" class="btn btn-info">Search</button>
-				</div>
--->
+
 			</div>
 		</div>
 		<div class="col-md-1 column">
@@ -208,60 +127,7 @@
 		</div>
 	</div>
     
-<!--
-     <p>&nbsp;</p>
-	<div class="row clearfix">
-		<div class="col-md-12 column">
-            
-			<div class="carousel slide" id="carousel-916551">
-				<ol class="carousel-indicators">
-					<li data-slide-to="0" data-target="#carousel-916551">
-					</li>
-					<li data-slide-to="1" data-target="#carousel-916551">
-					</li>
-					<li data-slide-to="2" data-target="#carousel-916551" class="active">
-					</li>
-				</ol>
-				<div class="carousel-inner">
-					<div class="item">
-                        <right><img alt="" src="i6.png"></right>
-						
-						<div class="carousel-caption">
-							<h4>
-								First Thumbnail label
-							</h4>
-							<p>
-								Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-							</p>
-						</div>
-					</div>
-					<div class="item">
-						<img alt="" src="i6.png">
-						<div class="carousel-caption">
-							<h4>
-								Second Thumbnail label
-							</h4>
-							<p>
-								Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-							</p>
-						</div>
-					</div>
-					<div class="item active">
-						<img alt="" src="i6.png">
-						<div class="carousel-caption">
-							<h4>
-								Third Thumbnail label
-							</h4>
-							<p>
-								Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-							</p>
-						</div>
-					</div>
-				</div> <a class="left carousel-control" href="#carousel-916551" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel-916551" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-			</div>
-		</div>
-	</div>
--->
+
 <div class="row clearfix">
 <div class="col-md-1 column">
   </div>
@@ -292,12 +158,13 @@
 	</div>
 
 	<div class="row clearfix">
+		
 		<div class="col-md-12 column">
 		</div>
 	</div>
     
             <p>&nbsp;</p>
-            <div class="row clearfix" class="jumbotron">
+            <div class="row clearfix" >
             <div class="col-md-2 column">
             </div>
 		<div class="col-md-4 column">
@@ -323,6 +190,7 @@
 			
 		</div>
 	</div>
+
 	<p>&nbsp;</p>
 	<div class="row clearfix">
 		<div class="col-md-2 column">
