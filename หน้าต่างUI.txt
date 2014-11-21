@@ -1,22 +1,22 @@
 หน้าต่าง UI
 1. Home no login — X
 2. Home login — X
-3. Search - x
-4. Login - x
-5. Forget - x
-6. Status Forget - x
-7. Report - x
-8. Report-Good - x
+3. Search — X
+4. Login — X
+5. Forget — X
+6. Status Forget — X
+7. Report — X
+8. Report-Good — X
 9. Report-Confirm
 10. Report-Submitted
-11. Sign Up - x
+11. Sign Up — X
 12. Sign up Confirm
 13. Sign Up Success
-14. Profile - x
+14. Profile — X
 15. Profile-History
 16. Profile-Sell
-17. Edit Profile - x
-18. Q/A
+17. Edit Profile - X
+18. Q/A - X
 19. Q/A Sent
 20. Sell Auction Type
 21. Sell Direct Type
@@ -24,5 +24,5 @@
 23. Edit Direct Type
 24. Browse Auction Type
 25. Browse Direct Type
-26. FeedBack - x
+26. FeedBack — X
 27. Feedback sent
