@@ -175,7 +175,7 @@
 		<div class="col-md-6 column">
 			<p>&nbsp;</p>
 			<dt >
-				IPhone 6 Plus
+				<a href ="">IPhone 6 Plus  - Gold (AIS) - 16 GB</a>
 			</dt>
 			<p>&nbsp;</p>
 			<dt>
@@ -204,7 +204,7 @@
 		<div class="col-md-6 column" >
 			<p>&nbsp;</p>
 			<dt >
-				IPhone 6 Plus
+				<a href ="">IPhone 6 Plus  - Gold (Dtac) - 128 GB</a>
 			</dt>
 			<p>&nbsp;</p>
 			<dt>
@@ -233,7 +233,7 @@
 				<div class="col-md-6 column">
 					<p>&nbsp;</p>
 					<dt >
-						IPhone 6 Plus
+						<a href ="">IPhone 6 Plus - Gold (TrueMove) - 64 GB</a>
 					</dt>
 					<p>&nbsp;</p>
 					<dt>
