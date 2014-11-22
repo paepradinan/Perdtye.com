@@ -221,7 +221,7 @@ body {
 				
 				<div class="col-md-2 column">
 					<h4>
-						My Profile : History
+						My Profile : Sell
 					</h4> 
 					<!-- <button type="button" class="btn btn-default" style="width:100%">Buy</button>  -->
 					<button type="button" class="btn btn-default "style="width:100%">Bidding</button> 
@@ -236,7 +236,7 @@ body {
 				<p>&nbsp;</p>
 				<div class="col-md-8 column">
 					<h4>
-						Biding
+						Sell
 					</h4>
 					<table class="table" style="table-layout: fixed; width: 100%">
 						<thead>
@@ -270,7 +270,7 @@ body {
 								</td>
 								<td>
 									<img src="img/iphone6 icon.jpg" width="100%"/>
-									<text>Iphone6</text>
+									<p style="margin-top:15px;"><center>Iphone6</center></p>
 								</td>
 								<td>
 									<text>360 orders</text>
@@ -334,7 +334,7 @@ body {
 								</td>
 								<td>
 									<img src="img/iphone6 icon.jpg" width="100%"/>
-									<text>Iphone6</text>
+									<p style="margin-top:15px;"><center>Iphone6</center></p>
 								</td>
 								<td style="word-wrap: break-word;">
 									<text>Shop1</text>

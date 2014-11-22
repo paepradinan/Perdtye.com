@@ -180,13 +180,13 @@ body {
 		<div class="col-md-1 column">
 			
 			<p>&nbsp;</p>
-			 <button type="button" class="btn btn-default" style="width:300%">Edit Profile</button> 
+			 <a href="editprofile.html" class="btn btn-default" style="width:300%">Edit Profile</a> 
 				<p>&nbsp;</p>
 
 
-			 <button type="button" class="btn btn-default"  style="width:300%">Report</button> 
+			 <a href="report.html" class="btn btn-default"  style="width:300%">Report</a> 
 			 	<p>&nbsp;</p>
-			 <button type="button" class="btn btn-default"  style="width:300%">Sell Register</button>
+			 <a type="button" class="btn btn-default"  style="width:300%">Sell Register</a>
 		</div>
 		<div class="col-md-3 column">
 		</div>
@@ -224,44 +224,42 @@ body {
 						My Profile : Bidding
 					</h4> 
 					<!-- <button type="button" class="btn btn-default" style="width:100%">Buy</button>  -->
-					<button type="button" class="btn btn-default  disabled"style="width:100%">Bidding</button> 
-					<button type="button" class="btn btn-default"style="width:100%">Didn't Win</button> 
-					<a href="editHistoryProfile.html">
-						<button type="button" class="btn btn-default"style="width:100%">History</button>
-					</a>
-					<a href="editSellProfile.html">
-						 <button type="button" class="btn btn-default" style="width:100%">Sell</button>
-					</a>
+					<a href="account.php" class="btn btn-default  disabled"style="width:100%">Bidding</a> 
+					<a href="accountdidntwin.php" class="btn btn-default"style="width:100%">Didn't Win</a> 
+					
+						<a href="accounthistory.php" class="btn btn-default"style="width:100%">History</a>
+					
+						 <a href="accountsell.php" class="btn btn-default" style="width:100%">Sell</a>
+				
 				</div>
 				<p>&nbsp;</p>
 				<div class="col-md-8 column">
 					<h4>
 						Biding
 					</h4>
-					<table class="table">
+					<table class="table" style="table-layout: fixed; width: 100%">
 						<thead>
 							<tr>
-								<th>
+								<th width="5%">
 									#
 								</th>
-								<th>
+								<th width="25%">
 									Product
 								</th>
-								<th>
+								<th width="15%">
 									Shop
 								</th>
-								<th>
+								<th width="15%">
 									Time
 								</th>
-								<th>
+								<th width="15%">
 									Price
 								</th>
-								<th>
+								<th width="25%">
 									Status
 								</th>
 							</tr>
 						</thead>
-
 						<tbody>
 							<?php for($x=1;$x<=10;$x++){?>
 							<tr class="active">
@@ -270,7 +268,7 @@ body {
 								</td>
 								<td>
 									<img src="img/iphone6 icon.jpg" width="100%"/>
-									<text>Iphone6</text>
+									<p style="margin-top:15px;"><center>Iphone6</center></p>
 								</td>
 								<td>
 									<text>Shop1</text>
@@ -296,7 +294,7 @@ body {
 								</td>
 								<td>
 									<img src="img/iphone6 icon.jpg" width="100%"/>
-									<text>Iphone6</text>
+									<p style="margin-top:15px;"><center>Iphone6</center></p>
 								</td>
 								<td>
 									<text>Shop1</text>
@@ -358,7 +356,7 @@ body {
 								</td>
 								<td>
 									<img src="img/iphone6 icon.jpg" width="100%"/>
-									<text>Iphone6</text>
+									<p style="margin-top:15px;"><center>Iphone6</center></p>
 								</td>
 								<td style="word-wrap: break-word;">
 									<text>Shop1</text>

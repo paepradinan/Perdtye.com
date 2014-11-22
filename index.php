@@ -114,7 +114,7 @@ body {
 							<a href="#">Sell</a>
 						</li>
                         <li>
-							<a href="account.html">Account</a>
+							<a href="account.php">Account</a>
 						</li>
                         <li>
 							<a href="#">Logout</a>
@@ -161,25 +161,26 @@ body {
 		          </div></div>
 
                 <div class="col-md-9 column search" >
+                	<form method="get" action="search.php">
                     <div class="row clearfix" style="vertical-align:middle">
                     <div class="col-md-2 column">
-					<select class="form-control" id="select">
-                        <option>Category</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
+
+					<select class="form-control" id="select" name="category">
+                        <option value="all">All Listing</option>
+                        <option value="auc">Auction</option>
+                        <option value="buy">Buy it now</option>
                       </select>
 				</div>
 				<div class="col-md-9 column">
                     <div class="form-group">
-                  <input type="text" class="form-control" id="inputDefault" placeholder="Search">
+                  <input type="text" class="form-control" id="inputDefault" placeholder="Search" name="search">
                 </div>
 				</div>
 				<div class="col-md-1 column">
-					 <button type="button" class="btn btn-info">Search</button>
+					 <button type="submit" class="btn btn-info">Search</button>
 				</div>
                         </div>
+                        </form>
 		          </div>
 <!--
                 <div class="col-md-2 column">
@@ -344,7 +345,7 @@ body {
   </div>
         </div>
     <!--BOTTOM-->
-  <div class="row clearfix">
+  <div class="row clearfix" style="margin-top:20px;">
     <div class="col-md-12 column">
       <nav class="navbar navbar-default navbar-bottom2" role="navigation">
            

@@ -270,7 +270,7 @@ body {
 								</td>
 								<td>
 									<img src="img/iphone6 icon.jpg" width="100%"/>
-									<text>Iphone6</text>
+									<p style="margin-top:15px;"><center>Iphone6</center></p>
 								</td>
 								<td>
 									<text>Shop1</text>
@@ -336,7 +336,7 @@ body {
 								</td>
 								<td>
 									<img src="img/iphone6 icon.jpg" width="100%"/>
-									<text>Iphone6</text>
+									<p style="margin-top:15px;"><center>Iphone6</center></p>
 								</td>
 								<td style="word-wrap: break-word;">
 									<text>Shop1</text>

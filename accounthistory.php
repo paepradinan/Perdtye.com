@@ -236,27 +236,27 @@ body {
 				<p>&nbsp;</p>
 				<div class="col-md-8 column">
 					<h4>
-						Biding
+						History
 					</h4>
-					<table class="table">
+					<table class="table" style="table-layout: fixed; width: 100%">
 						<thead>
 							<tr>
-								<th>
+								<th width="5%">
 									#
 								</th>
-								<th>
+								<th width="25%">
 									Product
 								</th>
-								<th>
+								<th width="17%">
 									Shop
 								</th>
-								<th>
+								<th width="17%">
 									Order Time
 								</th>
-								<th>
+								<th width="18%">
 									Price
 								</th>
-								<th>
+								<th width="18%">
 									Status
 								</th>
 							</tr>
@@ -270,7 +270,7 @@ body {
 								</td>
 								<td>
 									<img src="img/iphone6 icon.jpg" width="100%"/>
-									<text>Iphone6</text>
+									<p style="margin-top:15px;"><center>Iphone6</center></p>
 								</td>
 								<td>
 									<text>Shop1</text>
@@ -336,7 +336,7 @@ body {
 								</td>
 								<td>
 									<img src="img/iphone6 icon.jpg" width="100%"/>
-									<text>Iphone6</text>
+									<p style="margin-top:15px;"><center>Iphone6</center></p>
 								</td>
 								<td style="word-wrap: break-word;">
 									<text>Shop1</text>

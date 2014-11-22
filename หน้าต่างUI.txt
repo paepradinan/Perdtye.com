@@ -26,5 +26,5 @@
 23. Edit Direct Type
 24. Browse Auction Type
 25. Browse Direct Type
-26. FeedBack — X
-27. Feedback sent
+26. FeedBack — —X 		P
+27. Feedback sent		Popup from Feedback
