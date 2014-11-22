@@ -17,7 +17,7 @@ body {
 </style>
   <a name="top"></a>
   <meta charset="utf-8">
-  <title>Perdtye - Account</title>
+  <title>Perdtye - EditSellProfile</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
   <meta name="author" content="">
@@ -66,17 +66,11 @@ body {
                     </ul>
 
 					<ul class="nav navbar-nav navbar-right">
-<!--
-                        <li>
-                            <a><b>Hi...Pae</b></a>
-                        </li>
--->
-                     \
 						<li>
 							<a href="#">Sell</a>
 						</li>
                         <li>
-							<a href="#">Account</a>
+							<a href="account.html">Account</a>
 						</li>
                         <li>
 							<a href="#">Logout</a>
@@ -99,7 +93,7 @@ body {
 			<div class="row clearfix">
                     <div class="col-md-3 column">
                         <div class="row clearfix">
-                    <a href="index.php"><img src="logo.png" width="100%"/></a>
+                    <a href="index.php"><img src="img/logo.png" width="100%"/></a>
 		          </div></div>
 
                 <div class="col-md-9 column search" >
@@ -148,7 +142,7 @@ body {
 		<div class="col-md-3 column">
 		<p>&nbsp;</p>
 		<p>&nbsp;</p>
-			<img alt="200x200" src="big_smile.png" />
+			<img alt="200x200" class="img-thumbnail" src="img/big_smile.png" />
 		
 	    </div>
 	    
@@ -196,40 +190,49 @@ body {
 
 </div>
 
-<!--  Zone summary-->
 
 
+<!-- TAB CONTENT SUMMART AND Q/A ***********************-->
 
-   <!--
+<div class="container">
+	
+	<div class="row clearfix">
+		<div class="col-md-1 column">
+		</div>
+
+		<div class="col-md-8 column">
 <ul class="nav nav-tabs">
-  <li class="" ><a href="#home" data-toggle="tab" aria-expanded="false">Home</a></li>
-  <li class="active"><a href="#profile" data-toggle="tab" aria-expanded="true">Profile</a></li>
+  <li class="active"><a href="#home2" data-toggle="tab" aria-expanded="true">Summary</a></li>
+  <li class=""><a href="#profile2" data-toggle="tab" aria-expanded="false">Q/A</a></li>
   
-  </li>
+    
+  
 </ul>
 <div id="myTabContent" class="tab-content">
-  <div class="tab-pane fade" id="home">
-  	<p>kuyyyyyyyyyyyyyyyyyyyyyy</p>
-  <div class="container">
-    <div class="row clearfix">
+  <div class="tab-pane fade active in" id="home2">
+   <div class="container">
+
 		<div class="col-md-12 column">
 
-			<div class="row clearfix">
-				<div class="col-md-1 column">
-				</div>
+			
+				
 				<div class="col-md-2 column">
 					<h4>
-						My Profile : Buy
+						My Profile : Buyer
 					</h4> <button type="button" class="btn btn-default" style="width:100%">Buy</button> 
-					<button type="button" class="btn btn-default"style="width:100%">Bidding</button> 
-					<button type="button" class="btn btn-default"style="width:100%">Didm't Win</button> 
-					<button type="button" class="btn btn-default"style="width:100%">History</button>
+					<a href="account.html">
+						<button type="button" class="btn btn-default"style="width:100%">Bidding</button> 
+					</a>
+					<button type="button" class="btn btn-default"style="width:100%">Didn't Win</button> 
+					<button type="button" class="btn btn-default disabled"style="width:100%">History</button>
+					<a href="editSellProfile.html">
 					 <button type="button" class="btn btn-default" style="width:100%">Sell</button>
+					</a>
 				</div>
 				<p>&nbsp;</p>
 				<div class="col-md-8 column">
 					<h4>
-						Biding
+						History
 					</h4>
 					<table class="table">
 						<thead>
@@ -241,16 +244,13 @@ body {
 									Product
 								</th>
 								<th>
-									Shop
-								</th>
-								<th>
-									Time
+									Seller
 								</th>
 								<th>
 									Price
 								</th>
 								<th>
-									Status
+									Action
 								</th>
 							</tr>
 						</thead>
@@ -260,22 +260,19 @@ body {
 									1
 								</td>
 								<td>
-									<img src="iphone6 icon.jpg" width="100%"/>
+									<img src="img/iphone6 icon.jpg" width="100%"/>
 									<text>Iphone6</text>
 								</td>
 								<td>
-									<text>Shop1</text>
-									<text>(feedback)</text>
-								</td>
-								<td>
-									<text>4h 42m left</text>
+									<text>Mhoo's Shop</text>
 								</td>
 								<td>
 									<text stylr="font-color:red">THB 14,532</text>
 									<text>21 bids</text>
 								</td>
 								<td>
-									<a href="#" class="btn btn-success">Increase Max Bid</a>
+									<a href="#" class="btn btn-default">Give Feedback</a>
+									<a href="#" class="btn btn-danger">Report</a>
 								</td>
 							</tr>
 							<tr class="success">
@@ -285,64 +282,44 @@ body {
 								<td>
 									Google-glass
 								</td>
-								<td>
-									<text>Tech IT</text>
-									<text>SHOP</text>
-									<text>(feedback)</text>
-								</td>
-								<td>
-									<text>2h 42m left</text>
+									<td>
+									<text>Meaw's Shop</text>
 								</td>
 								<td>
 									<text stylr="font-color:green">THB 5,345</text>
 									<text>8 bids</text>
 								</td>
 								<td>
-									<a href="#" class="btn btn-default">View Seller's Other item</a>
+									<a href="#" class="btn btn-default">Give Feedback</a>
+									<a href="#" class="btn btn-danger">Report</a>
 								</td>
 							</tr>
 							
 						</tbody>
 					</table>
 				</div>
-  </div>
-  </div>
-  </div>
-  <div class="tab-pane fade active in" id="profile">
-  	
-    <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit.</p>
 
   </div>
-	  
-	</div>
-	</div>
-	-->
-
-<div class="container">
-	
-	<div class="row clearfix">
-		<div class="col-md-1 column">
-		</div>
-
-		<div class="col-md-8 column">
-<ul class="nav nav-tabs">
-  <li class="active"><a href="#home2" data-toggle="tab" aria-expanded="false">Summary</a></li>
-  <li class=""><a href="#profile2" data-toggle="tab" aria-expanded="true">Q/A</a></li>
-  
-    
-  </li>
-</ul>
-<div id="myTabContent" class="tab-content">
-  <div class="tab-pane fade active in" id="home2">
-   <script src="profile.html"></script>
+  </div>
+  </div>
+  </div>
   <div class="tab-pane fade" id="profile2">
-  
+  	<div>wegwegweg</div>
   </div>
   </div>
 
 </div>
 </div>
 </div>
+  				</div>
+ 				 </div>
+ 				</div>
+ 				 <div class="tab-pane fade" id="profile2">
+  				 Hello
+  				</div>
+			</div>
+		</div>
+	</div>
 </div>
 
 
@@ -351,11 +328,9 @@ body {
     
             <p>&nbsp;</p>
 
-  
-   <div class="row clearfix">
-    <div class="col-md-12 column">
-    </div>
-  </div>
+  <!-- TAB CONTENT -->
+
+
        
     <!--BOTTOM-->
   <div class="row clearfix">

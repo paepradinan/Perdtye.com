@@ -157,7 +157,7 @@ body {
 			<div class="row clearfix">
                     <div class="col-md-3 column">
                         <div class="row clearfix">
-                    <a href="index.php"><img src="logo.png" width="100%"/></a>
+                    <a href="index.php"><img src="img/logo.png" width="100%"/></a>
 		          </div></div>
 
                 <div class="col-md-9 column search" >
@@ -226,7 +226,7 @@ body {
 				</ol>
 				<div class="carousel-inner">
 					<div class="item">
-                        <right><img alt="" src="i6.png"></right>
+                        <right><img alt="" src="img/i6.png"></right>
 						
 						<div class="carousel-caption">
 							<h4>
@@ -238,7 +238,7 @@ body {
 						</div>
 					</div>
 					<div class="item">
-						<img alt="" src="i6.png">
+						<img alt="" src="img/i6.png">
 						<div class="carousel-caption">
 							<h4>
 								Second Thumbnail label
@@ -249,7 +249,7 @@ body {
 						</div>
 					</div>
 					<div class="item active">
-						<img alt="" src="i6.png">
+						<img alt="" src="img/i6.png">
 						<div class="carousel-caption">
 							<h4>
 								Third Thumbnail label
@@ -293,7 +293,7 @@ body {
                                                 <div class="row">
  
     <div class="thumbnail">
-      <img src="i6.png" >
+      <img src="img/i6.png" >
       <div class="caption">
         <h3>iPhone6 64gb Gold</h3>
         <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit. ...</p>
