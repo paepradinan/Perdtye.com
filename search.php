@@ -164,92 +164,35 @@
 		<div class="col-md-12 column">
 		</div>
 	</div>
-    
-            <p>&nbsp;</p>
-            <div class="row clearfix" >
-            <div class="col-md-2 column">
-            </div>
-		<div class="col-md-4 column">
-			<img alt="140x140" width="150px" src="img/i6.png" />
+<?php
+for($x=0;$x<10;$x++){?>
+    <div class="row" style="margin-top:20px">
+    		<div class="col-md-4 column">
+    			<img width="100%" src="img/i6.png" >
 		</div>
-		<div class="col-md-6 column">
-			<p>&nbsp;</p>
-			<dt >
-				<a href ="">IPhone 6 Plus  - Gold (AIS) - 16 GB</a>
-			</dt>
-			<p>&nbsp;</p>
-			<dt>
-				Price :$300
-			</dt>
-			<p>&nbsp;</p>
-			<dt>
-				Buy IT NOW!!
-			</dt>
-			<p>&nbsp;</p>
-			<dt>
-				Name Seller : JOhn
-			</dt>
-			
+		<div class="col-md-8 column">
+			<div class="caption">
+        <a><h3>iPhone6 64gb Gold</h3></a>
+        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit. ...</p>
+          <div class="row clearfix" style="margin-bottom:0px;">
+              <div class="col-md-6 column">
+                <h4 style="color:red;">Price : $300.21</h4>
+                <h5 style="color:black; margin-top:20px;">Buy it now or Bid...</h5>
+              </div>
+              <div class="col-md-6 column">
+                <h5 style="color:grey;">From : Pae</h5>
+              </div>
+          </div>
+<!--        <p style="margin-right:0px"><a href="#" class="btn btn-primary" role="button">Details</a> <a href="#" class="btn btn-default" role="button">Buy Now</a></p>-->
+      </div>
 		</div>
-	</div>
+  </div>
+  <?php
+}
+?>
+         
 
-	<p>&nbsp;</p>
-	<legend></legend>
-	<div class="row clearfix">
-		<div class="col-md-2 column">
-            </div>
-		<div class="col-md-4 column">
-			<img alt="140x140" width="150px" src="img/i6.png" />
-		</div>
-		<div class="col-md-6 column" >
-			<p>&nbsp;</p>
-			<dt >
-				<a href ="">IPhone 6 Plus  - Gold (Dtac) - 128 GB</a>
-			</dt>
-			<p>&nbsp;</p>
-			<dt>
-				Price :$300
-			</dt>
-			<p>&nbsp;</p>
-			<dt>
-				Buy IT NOW!!
-			</dt>
-			<p>&nbsp;</p>
-			<dt>
-				Name Seller : JOhn
-			</dt>
-			
-		</div>
-	</div>
-	<p>&nbsp;</p>
-	<legend></legend>
-	<div class="row clearfix">
-		<div class="col-md-2 column">
-            </div>
-       		
-				<div class="col-md-4 column ">
-					<img alt="140x140" width="150px" src="img/i6.png" />
-				</div>
-				<div class="col-md-6 column">
-					<p>&nbsp;</p>
-					<dt >
-						<a href ="">IPhone 6 Plus - Gold (TrueMove) - 64 GB</a>
-					</dt>
-					<p>&nbsp;</p>
-					<dt>
-						Price :$300
-					</dt>
-					<p>&nbsp;</p>
-					<dt>
-						Buy IT NOW!!
-					</dt>
-					<p>&nbsp;</p>
-					<dt>
-						Name Seller : JOhn
-					</dt>
-					
-				</div>
-		</div>
+	
 		</div> 
 		<div class="col-md-2"> 
 </div> 	

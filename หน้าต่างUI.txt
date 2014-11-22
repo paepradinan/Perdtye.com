@@ -1,23 +1,23 @@
 หน้าต่าง UI
 1. Home no login — —X	P
 2. Home login — —X 		P
-3. Search — X
+3. Search — —X 			P
 4. Login — —X 			P
 5. Forget — X 			P
 6. Status Forget — —X 	P
 7. Report — —X 			P
 8. Report-Good — —X 	P
-9. Report-Confirm —X
-10. Report-Submitted
-11. Sign Up — X
-12. Sign up Confirm
-13. Sign Up Success
+9. Report-Confirm —X 	Popup from report form	
+10. Report-Submitted	P
+11. Sign Up — X 		P
+12. Sign up Confirm 	P
+13. Sign Up Success 	Popup from Signup
 14. Profile(Account) — X
 15. Profile-History — X
 16. Profile-Sell — X
 
 17. Edit Profile - X
-18. Q/A - X
+18. Q/A - X 			P
 
 19. Q/A Sent
 20. Sell Auction Type
