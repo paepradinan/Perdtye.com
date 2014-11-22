@@ -221,7 +221,7 @@ body {
 				
 				<div class="col-md-2 column">
 					<h4>
-						My Profile : Buyer
+						My Profile : No Win
 					</h4> 
 					<!-- <button type="button" class="btn btn-default" style="width:100%">Buy</button>  -->
 					<button type="button" class="btn btn-default"style="width:100%">Bidding</button> 
