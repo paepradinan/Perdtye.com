@@ -16,7 +16,7 @@
 15. Profile-History — X
 16. Profile-Sell — X
 
-17. Edit Profile - X
+17. Edit Profile - X 	P
 18. Q/A - X 			P
 
 19. Q/A Sent

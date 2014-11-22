@@ -146,9 +146,7 @@ body {
 		</div>
 		
 		<div class="col-md-3 column">
-		<p>&nbsp;</p>
-		<p>&nbsp;</p>
-			<img alt="200x200" src="img/big_smile.png" />
+			<img alt="200x200" class="img-thumbnail" src="img/mhoo.jpg" />
 		
 	    </div>
 	    
@@ -196,129 +194,10 @@ body {
 
 </div>
 
+
 <!--  Zone summary-->
 
-
-
-   <!--
-<ul class="nav nav-tabs">
-  <li class="" ><a href="#home" data-toggle="tab" aria-expanded="false">Home</a></li>
-  <li class="active"><a href="#profile" data-toggle="tab" aria-expanded="true">Profile</a></li>
-  
-  </li>
-</ul>
-<div id="myTabContent" class="tab-content">
-  <div class="tab-pane fade" id="home">
-  	<p>kuyyyyyyyyyyyyyyyyyyyyyy</p>
-  <div class="container">
-    <div class="row clearfix">
-		<div class="col-md-12 column">
-
-			<div class="row clearfix">
-				<div class="col-md-1 column">
-				</div>
-				<div class="col-md-2 column">
-					<h4>
-						My Profile : Buy
-					</h4> <button type="button" class="btn btn-default" style="width:100%">Buy</button> 
-					<button type="button" class="btn btn-default"style="width:100%">Bidding</button> 
-					<button type="button" class="btn btn-default"style="width:100%">Didm't Win</button> 
-					<button type="button" class="btn btn-default"style="width:100%">History</button>
-					 <button type="button" class="btn btn-default" style="width:100%">Sell</button>
-				</div>
-				<p>&nbsp;</p>
-				<div class="col-md-8 column">
-					<h4>
-						Biding
-					</h4>
-					<table class="table">
-						<thead>
-							<tr>
-								<th>
-									#
-								</th>
-								<th>
-									Product
-								</th>
-								<th>
-									Shop
-								</th>
-								<th>
-									Time
-								</th>
-								<th>
-									Price
-								</th>
-								<th>
-									Status
-								</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr class="active">
-								<td>
-									1
-								</td>
-								<td>
-									<img src="iphone6 icon.jpg" width="100%"/>
-									<text>Iphone6</text>
-								</td>
-								<td>
-									<text>Shop1</text>
-									<text>(feedback)</text>
-								</td>
-								<td>
-									<text>4h 42m left</text>
-								</td>
-								<td>
-									<text stylr="font-color:red">THB 14,532</text>
-									<text>21 bids</text>
-								</td>
-								<td>
-									<a href="#" class="btn btn-success">Increase Max Bid</a>
-								</td>
-							</tr>
-							<tr class="success">
-								<td>
-									2
-								</td>
-								<td>
-									Google-glass
-								</td>
-								<td>
-									<text>Tech IT</text>
-									<text>SHOP</text>
-									<text>(feedback)</text>
-								</td>
-								<td>
-									<text>2h 42m left</text>
-								</td>
-								<td>
-									<text stylr="font-color:green">THB 5,345</text>
-									<text>8 bids</text>
-								</td>
-								<td>
-									<a href="#" class="btn btn-default">View Seller's Other item</a>
-								</td>
-							</tr>
-							
-						</tbody>
-					</table>
-				</div>
-  </div>
-  </div>
-  </div>
-  <div class="tab-pane fade active in" id="profile">
-  	
-    <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit.</p>
-
-  </div>
-	  
-	</div>
-	</div>
-	-->
-
-<div class="container">
+<div class="container" style="margin-top:30px">
 	
 	<div class="row clearfix">
 		<div class="col-md-1 column">
@@ -326,138 +205,167 @@ body {
 
 		<div class="col-md-8 column">
 <ul class="nav nav-tabs">
-  <li class="active"><a href="#home2" data-toggle="tab" aria-expanded="false"  onclick="summary()">Summary</a></li>
-  <li class=""><a href="#profile2" data-toggle="tab" aria-expanded="true"  onclick="profile()">Q/A</a></li>
+  <li class="active"><a href="#home2" data-toggle="tab" aria-expanded="true">Summary</a></li>
+  <li class=""><a href="#profile2" data-toggle="tab" aria-expanded="false">Q/A</a></li>
   
     
-  </li>
+  
 </ul>
-<script> $('#home2').function summary()  {
-  e.preventDefault()
-  $(this).tab('show')
-})</script>
-
-<script> $('#profile2').function profile()  {
-  e.preventDefault()
-  $(this).tab('show')
-})</script>
-
 <div id="myTabContent" class="tab-content">
   <div class="tab-pane fade active in" id="home2">
    <div class="container">
-    <div class="row clearfix">
+
 		<div class="col-md-12 column">
 
-			<div class="row clearfix">
+			
 				
 				<div class="col-md-2 column">
 					<h4>
-						My Profile : Buy
-					</h4> <button type="button" class="btn btn-default" style="width:100%">Buy</button> 
-					<button type="button" class="btn btn-default"style="width:100%">Bidding</button> 
-					<button type="button" class="btn btn-default"style="width:100%">Didm't Win</button> 
-					<button type="button" class="btn btn-default"style="width:100%">History</button>
-					 <button type="button" class="btn btn-default" style="width:100%">Sell</button>
+						My Profile : History
+					</h4> 
+					<!-- <button type="button" class="btn btn-default" style="width:100%">Buy</button>  -->
+					<button type="button" class="btn btn-default "style="width:100%">Bidding</button> 
+					<button type="button" class="btn btn-default"style="width:100%">Didn't Win</button> 
+					<a href="editHistoryProfile.html">
+						<button type="button" class="btn btn-default "style="width:100%">History</button>
+					</a>
+					<a href="editSellProfile.html">
+						 <button type="button" class="btn btn-default disabled" style="width:100%">Sell</button>
+					</a>
 				</div>
 				<p>&nbsp;</p>
 				<div class="col-md-8 column">
 					<h4>
 						Biding
 					</h4>
-					<table class="table">
+					<table class="table" style="table-layout: fixed; width: 100%">
 						<thead>
 							<tr>
-								<th>
+								<th width="5%">
 									#
 								</th>
-								<th>
+								<th width="25%">
 									Product
 								</th>
-								<th>
-									Shop
+								<th width="15%">
+									Order
 								</th>
-								<th>
-									Time
+								<th width="15%">
+									Available
 								</th>
-								<th>
+								<th width="20%">
 									Price
 								</th>
-								<th>
-									Status
+								<th width="20%">
+									
 								</th>
 							</tr>
 						</thead>
+
 						<tbody>
+							<?php for($x=1;$x<=10;$x++){?>
 							<tr class="active">
 								<td>
-									1
+									<?php echo $x ?>
 								</td>
 								<td>
-									<img src="iphone6 icon.jpg" width="100%"/>
+									<img src="img/iphone6 icon.jpg" width="100%"/>
 									<text>Iphone6</text>
 								</td>
 								<td>
+									<text>360 orders</text>
+								</td>
+								<td>
+									<text>2032 items</text>
+								</td>
+								<td>
+									<p style="color:black">THB 14,532</p>
+								</td>
+								<td>
+									<a href="#" class="btn btn-success" style="width:100%;">edit sell</a>
+								</td>
+							</tr>
+							<?php
+						}
+						?>
+							
+							
+						</tbody>
+					</table>
+				</div>
+ 
+  				</div>
+ 				 </div>
+ 				</div>
+ 				 <div class="tab-pane fade" id="profile2">
+  				 		<div class="col-md-12 column">
+					<h4>
+						Q/A
+					</h4>
+					<table class="table"  style="table-layout: fixed; width: 100%">
+						<thead>
+							<tr>
+								<th width="5%">
+									#
+								</th>
+								<th width="25%">
+									Product
+								</th>
+								<th width="15%">
+									Shop
+								</th>
+								<th width="15%">
+									Time
+								</th>
+								<th width="20%">
+									Question
+								</th>
+								<th width="20%">
+									Answer
+								</th>
+							</tr>
+						</thead>
+
+						<tbody>
+							<?php for($x=1;$x<=10;$x++){?>
+							<tr class="active">
+								<td>
+									<?php echo $x ?>
+								</td>
+								<td>
+									<img src="img/iphone6 icon.jpg" width="100%"/>
+									<text>Iphone6</text>
+								</td>
+								<td style="word-wrap: break-word;">
 									<text>Shop1</text>
 									<text>(feedback)</text>
 								</td>
 								<td>
 									<text>4h 42m left</text>
 								</td>
-								<td>
-									<text stylr="font-color:red">THB 14,532</text>
-									<text>21 bids</text>
+								<td style="word-wrap: break-word;">
+									ฟหกฟกกาหกาก่รหกรหกห่กหกสหกวสหวกสหกๆไกืๆไำิๆืไอกเหกฟีห้กฟหทสทำส
+									
 								</td>
-								<td>
-									<a href="#" class="btn btn-success">Increase Max Bid</a>
-								</td>
-							</tr>
-							<tr class="success">
-								<td>
-									2
-								</td>
-								<td>
-									Google-glass
-								</td>
-								<td>
-									<text>Tech IT</text>
-									<text>SHOP</text>
-									<text>(feedback)</text>
-								</td>
-								<td>
-									<text>2h 42m left</text>
-								</td>
-								<td>
-									<text stylr="font-color:green">THB 5,345</text>
-									<text>8 bids</text>
-								</td>
-								<td>
-									<a href="#" class="btn btn-default">View Seller's Other item</a>
+								<td style="word-wrap: break-word;">
+									Waiting for answer from seller
 								</td>
 							</tr>
+							<?php
+						}
+						?>
+							
 							
 						</tbody>
 					</table>
 				</div>
-  </div>
-  </div>
-  </div>
-  </div>
-  <div class="tab-pane fade" id="profile2">
-  	<div>wegwegweg</div>
-  </div>
-  </div>
-
+ 
+  				</div>
+  				</div>
+			</div>
+		</div>
+	</div>
 </div>
-</div>
-</div>
-</div>
-
-
-
-
-    
-            <p>&nbsp;</p>
-
   
    <div class="row clearfix">
     <div class="col-md-12 column">
@@ -504,4 +412,4 @@ body {
 
 
 </body>
-</html>
+</html>	

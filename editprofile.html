@@ -128,17 +128,20 @@ body {
 		</div>
 	</div>
 
-		<!--Profile edit-->
+		<div class="row clearfix">
+			<div class="col-md-1 column">
+			</div>
+			<div class="col-md-10 column">
+					<!--Profile edit-->
 		<div class="col-lg-offset-2 col-lg-8 well-shadow">
 		<form class="form-horizontal">
 		  <fieldset>
 		    <legend>Edit Profile</legend>
 		    	<div class="input-group">
 		    		<img for="image" src="img/mhoo.jpg" class="img-thumbnail img-responsive" alt="Responsive image" style="margin-left: 20px ;height: 300px"/>
-		    		<input type="file" id="img" />
+		    		<input type="file" id="img" style="margin-left: 20px;margin-top:10px;"/>
 		    	</div>
-		    <legend>Profile</legend>
-		     <div class="form-group">
+		     <div class="form-group" style="margin-top:30px;">
 		     	<div class="col-lg-1"></div>
 
 			    <div class="col-lg-5 form-group">
@@ -222,12 +225,16 @@ body {
 				
 
 				   	<div class="form-group">
-				      <label for="inputNewpass" class="control-label">New password</label>
-				      
+				      <p>
+				        <label for="inputNewpass" class="control-label">New password</label>
+				        
 				        <input type="password" class="form-control" id="inputNewpass" style="width:300px" placeholder="Kuyแก้ด้วย">
 				        
+				        <label for="inputNewpass" class="control-label">Please confirm new password</label>
+				      </p>
+				      <p>
 				        <input type="password" class="col-lg-6 form-control" id="inputRenew" style="width:300px" placeholder="Kuyแก้ด้วย">
-				      <span class="label label-danger" > * Please confirm new password</span>
+			          </p>
 
 				    </div>
 				 </div>
@@ -245,7 +252,10 @@ body {
 		  </fieldset>
 		</form>
 	</div>
-
+</div>
+	<div class="col-md-1 column">
+	</div>
+</div>
 
   <!--BOTTOM-->
   <div class="row clearfix">
