@@ -12,14 +12,14 @@
 11. Sign Up — X 		P
 12. Sign up Confirm 	P
 13. Sign Up Success 	Popup from Signup
-14. Profile(Account) — X
-15. Profile-History — X
-16. Profile-Sell — X
-
+14. Profile(Bidding) — —X 	P
+15. Profile-History — X 	P	
+16. Profile-Sell — X 		P
+	Profile-Q/A 		P	
+	Profile-didtwin		P
 17. Edit Profile - X 	P
 18. Q/A - X 			P
-
-19. Q/A Sent
+19. Q/A sent 			Popup from Q/A
 20. Sell Auction Type
 21. Sell Direct Type
 22. Edit Sell Auction type
