@@ -3922,6 +3922,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     left: 0;
     margin-bottom: 0px;
     z-index: 1030;
+    position: static;
 }
 .navbar-fixed-top,
 .navbar-fixed-bottom {

@@ -1,12 +1,12 @@
 หน้าต่าง UI
-1. Home no login — X
-2. Home login — X
+1. Home no login — —X	P
+2. Home login — —X 		P
 3. Search — X
-4. Login — X
-5. Forget — X
-6. Status Forget — X
-7. Report — X
-8. Report-Good — X
+4. Login — —X 			P
+5. Forget — X 			P
+6. Status Forget — —X 	P
+7. Report — —X 			P
+8. Report-Good — —X 	P
 9. Report-Confirm —X
 10. Report-Submitted
 11. Sign Up — X
