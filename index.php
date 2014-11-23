@@ -74,9 +74,15 @@ body {
                         <li>
 							<a href="signup1.html">Signup</a>
 						</li>
-						<li>
-							<a href="sellauctiontype.html">Sell</a>
-						</li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sell <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Direct sell</a></li>
+                  <li><a href="#">Auction sell</a></li>
+                  <li class="divider"></li>
+                  <li><a href="accountsell.php">Edit sell</a></li>
+                </ul>
+            </li>
                         <li>
 							<a href="account.php">Account</a>
 						</li>
