@@ -1,30 +1,30 @@
-หน้าต่าง UI
-1. Home no login — —X		P
+﻿หน้าต่าง UI
+1. Home no login — —X	P
 2. Home login — —X 		P
 3. Search — —X 			P
 4. Login — —X 			P
 5. Forget — X 			P
-6. Status Forget — —X 		P
+6. Status Forget — —X 	P
 7. Report — —X 			P
-8. Report-Good — —X 		P
-9. Report-Confirm —X 	Popup from report form		P
-10. Report-Submitted		P
+8. Report-Good — —X 	P
+9. Report-Confirm —X 	Popup from report form	
+10. Report-Submitted	P
 11. Sign Up — X 		P
-12. Sign up Confirm 		P
-13. Sign Up Success 	Popup from Signup			
+12. Sign up Confirm 	P
+13. Sign Up Success 	Popup from Signup
 14. Profile(Bidding) — —X 	P
 15. Profile-History — X 	P	
 16. Profile-Sell — X 		P
 	Profile-Q/A 		P	
 	Profile-didtwin		P
-17. Edit Profile - X 		P
+17. Edit Profile - X 	P
 18. Q/A - X 			P
 19. Q/A sent 			Popup from Q/A
 20. Sell Auction Type
 21. Sell Direct Type -X
 22. Edit Sell Auction type
 23. Edit Direct Type -X
-24. Browse Auction Type
-25. Browse Direct Type
+24. Browse Auction Type-x
+25. Browse Direct Type-x
 26. FeedBack — —X 		P
 27. Feedback sent		Popup from Feedback
