@@ -1,4 +1,4 @@
-หน้าต่าง UI
+﻿หน้าต่าง UI
 1. Home no login — —X	P
 2. Home login — —X 		P
 3. Search — —X 			P
@@ -21,9 +21,9 @@
 18. Q/A - X 			P
 19. Q/A sent 			Popup from Q/A
 20. Sell Auction Type
-21. Sell Direct Type
+21. Sell Direct Type -X
 22. Edit Sell Auction type
-23. Edit Direct Type
+23. Edit Direct Type -X
 24. Browse Auction Type
 25. Browse Direct Type
 26. FeedBack — —X 		P
