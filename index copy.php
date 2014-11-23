@@ -103,7 +103,7 @@
 							<a href="#">Signup</a>
 						</li>
 						<li>
-							<a href="#">Sell</a>
+							<a href="sellauctiontype.html">Sell</a>
 						</li>
                         <li>
 							<a href="#">Account</a>

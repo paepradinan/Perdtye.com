@@ -7,53 +7,7 @@
           font-family: Sukhumvit
       }
   </style>
-    <style type="text/css">
-body {
-  margin-left: 0px;
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-}
-</style>
-17
-18
-19
-<style type="text/css">
-  .star {
-background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAKCAQAAADI+WwIAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAJiS0dEAP+Hj8y/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAACXZwQWcAAAALAAAACgCF+qVAAAAAhUlEQVQI103NMQqCABgF4C+Fxg7QHDQ0JkFnaKqlKJBu4Np9hEDoBq2doCYP0B4UBKLYUKZvex+P/+9N/dJ3FXl9S9CopbF9U1pOkAgb3irVanOMlGqldeBoo9CmspMFOFmp/hzLmtuXzvrWvpwJFVJvLLqci8Qmzl8OhzBwcMdD6ilXfwAd9B9f78yTCQAAAABJRU5ErkJggg==);  
-  }
- 
-  .unstar {
-background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAKCAQAAADI+WwIAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAJiS0dEAP+Hj8y/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAACXZwQWcAAAALAAAACgCF+qVAAAAAo0lEQVQI1z2NMQrCQBRE32YxGFDwBGJnYZkll0ilpDISLO28k4lFwN7CTsTKSisbK8ELCJFI/BZJdn41j/kzSqiVuZ3r1yzeAAanoajpcOwsW2dxf+0yWGe6CaVzNmgY4VHyQKAiVsIlUlvc9otK4lXugNnJjKqlkpi86X6exIZfNztZBGhKUgr4hBZ3A3UX4ye/CYdeWHch7MOzJ9R3jFLt8we7izGyoi32iQAAAABJRU5ErkJggg==);
-  }
- 
-  .half-star {
-background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAKCAQAAADI+WwIAAAAAmJLR0QA/4ePzL8AAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAJdnBBZwAAAAsAAAAKAIX6pUAAAACTSURBVAjXTY0xCsJAEEVfdiEgpPAWFpYTvMRWSioDwdIuh7GydbEIeAM7sU1lo42tR1CEdSzMJk4178H/H7qTVK4+A0URTNTMmZhVhEHXMK69/UEiS3Z0sOGOQqBMQAr2pABbgKDlujHQHlgQYpdWeRO7z/0Cj8swOcPyxvOEl/vXN/K2+kw5Zq4PipNR/E+Ft8IX7yMjsFUGo0cAAAAcdEVYdFNvZnR3YXJlAEFkb2JlIEZpcmV3b3JrcyBDUzVxteM2AAAAAElFTkSuQmCC);
-  }
- 
 
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-  .rating {
-    float: left;
-    width: 11px;
-    height: 10px;
-  }
-</style>
   <a name="top"></a>
   <meta charset="utf-8">
   <title>Perdtye - SellAuction</title>
@@ -71,6 +25,8 @@ background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAKCAQAAADI+Ww
   <link href="css/style.css" rel="stylesheet">
 <link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css" />
 <link rel="stylesheet" href="css/bootstrap-datetimepicker.css" />
+<link rel="stylesheet" href="css/bootstrap-clockpicker.min.css">
+<link rel="stylesheet" href="css/jquery-clockpicker.min.css">
   <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
   <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
@@ -155,7 +111,7 @@ background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAKCAQAAADI+Ww
               <a href="signup1.html">Signup</a>
             </li>
             <li>
-              <a href="#">Sell</a>
+              <a href="sellauctiontype.html">Sell</a>
             </li>
                         <li>
               <a href="#">Account</a>
@@ -401,7 +357,12 @@ background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAKCAQAAADI+Ww
       <label style="font-size:15px; margin-top:7px;">*Begining Time :</label>
     </div>
        <div class="col-md-2">
-        <input type="text" id="inputEmail" class="form-control" placeholder="Baht">
+        <div class="input-group clockpicker" data-placement="left" data-align="top" data-autoclose="true">
+    <input type="text" class="form-control" value="13:14">
+    <span class="input-group-addon">
+        <span class="glyphicon glyphicon-time"></span>
+    </span>
+</div>
     </div>
 
    
@@ -412,41 +373,28 @@ background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAKCAQAAADI+Ww
     <div class="col-md-2" style="margin-left:50px">
       <label style="font-size:15px; margin-top:7px;">*Ending Time :</label>
     </div>
-       <div class="col-md-5">
+       <div class="col-md-2">
 
-  <div class='col-sm-6'>
+ 
             <div class="form-group">
-                <div class='input-group date' id='datetimepicker4'>
-                    <input type='text' class="form-control" />
-                    <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
+                <div class="input-group clockpicker" data-placement="left" data-align="top" data-autoclose="true">
+                    <input type="text" class="form-control" value="13:14">
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-time"></span>
                     </span>
                 </div>
             </div>
-        </div>
-        <script >
-            $(function () {
-                $('#datetimepicker4').datetimepicker();
-            });
+      
+        <script type="text/javascript">
+        $('.clockpicker').clockpicker();
         </script>
-  
-<!--
-   <input type="text" class ="form-control datepicker" id="inputDate" name="inputDate" 
-                            placeholder="date"
-                            >
-                            <script>
-      $('.datepicker').datepicker({
-        format: "dd/MM/yyyy hh:mm:ss ",
-        autoclose: true,
-        todayHighlight: true
-      });
-    </script>
-
--->
 
 
 
       </div>
  </div>
+
+
 
        <div class="row" style="margin-top:10px">
     <div class="col-md-2"></div>
@@ -531,6 +479,64 @@ background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAKCAQAAADI+Ww
   </div>
 
   <!--BOTTOM-->
+
+
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery-clockpicker.min.js"></script>
+<script type="text/javascript">
+$('.clockpicker').clockpicker()
+  .find('input').change(function(){
+    console.log(this.value);
+  });
+$('#single-input').clockpicker({
+  placement: 'bottom',
+  align: 'right',
+  autoclose: true,
+  'default': '20:48'
+});
+$('.clockpicker-with-callbacks').clockpicker({
+    donetext: 'Done',
+    init: function() { 
+      console.log("colorpicker initiated");
+    },
+    beforeShow: function() {
+      console.log("before show");
+    },
+    afterShow: function() {
+      console.log("after show");
+    },
+    beforeHide: function() {
+      console.log("before hide");
+    },
+    afterHide: function() {
+      console.log("after hide");
+    },
+    beforeHourSelect: function() {
+      console.log("before hour selected");
+    },
+    afterHourSelect: function() {
+      console.log("after hour selected");
+    },
+    beforeDone: function() {
+      console.log("before done");
+    },
+    afterDone: function() {
+      console.log("after done");
+    }
+  })
+  .find('input').change(function(){
+    console.log(this.value);
+  });
+if (/Mobile/.test(navigator.userAgent)) {
+  $('input').prop('readOnly', true);
+}
+</script>
+<script type="text/javascript" src="js/highlight.min.js"></script>
+<script type="text/javascript">
+hljs.configure({tabReplace: '    '});
+hljs.initHighlightingOnLoad();
+</script>
 
 
 </body>
