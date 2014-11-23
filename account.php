@@ -181,7 +181,7 @@ body {
 
 			 <a href="report.html" class="btn btn-default"  style="width:300%">Report</a> 
 			 	<p>&nbsp;</p>
-			 <a type="button" class="btn btn-default"  style="width:300%">Sell Register</a>
+			 <a href="sellregis.html" type="button" class="btn btn-default"  style="width:300%">Sell Register</a>
 		</div>
 		<div class="col-md-3 column">
 		</div>
