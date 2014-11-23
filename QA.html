@@ -38,88 +38,95 @@
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/scripts.js"></script>
+  <script src="js/form-validator/jquery.form-validator.min.js"></script>
 </head>
 
 <body>
 
-	<div class="row clearfix">
-		<div class="col-md-12 column">
-			<nav class="navbar navbar-default navbar-default-top navbar-fixed-top" role="navigation">
-				<div class="navbar-header">
-					 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="#">Perdtye</a>
-				</div>
-				
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	<!-- Header -->
+  <div class="row clearfix">
+    <div class="col-md-12 column">
+      <nav class="navbar navbar-default navbar-default-top navbar-fixed-top" role="navigation">
+        <div class="navbar-header">
+           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="#">Perdtye</a>
+        </div>
+        
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
                         
-						<li>
+            <li>
                             <a><b><Sukhumvit>"ประดินันทน์ เพชรเรืองรอง"</Sukhumvit></b></a>
                         </li>
                     </ul>
 
-					<ul class="nav navbar-nav navbar-right">
+          <ul class="nav navbar-nav navbar-right">
 
-                     
-						<li>
-							<a href="#">Sell</a>
-						</li>
                         <li>
-							<a href="#">Account</a>
-						</li>
+              <a href="login1.html">Login</a>
+            </li>
                         <li>
-							<a href="#">Logout</a>
-						</li>
+              <a href="signup1.html">Signup</a>
+            </li>
+            <li>
+              <a href="#">Sell</a>
+            </li>
+                        <li>
+              <a href="account.php">Account</a>
+            </li>
+                        <li>
+              <a href="#">Logout</a>
+            </li>
                         <li>
                             <a></a>
                         </li>
-                        
-
-					</ul>
-				</div>
-				
-			</nav>
-		</div>
-	</div>
-  	<div class="row clearfix bgsearchtop">
-		<div class="col-md-1 column">
-		</div>
-		<div class="col-md-10 column bgsearch">
-			<div class="row clearfix">
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+<!-- Header -->
+<!-- Search -->
+  <div class="row clearfix bgsearchtop">
+    <div class="col-md-1 column">
+    </div>
+    <div class="col-md-10 column bgsearch">
+      <div class="row clearfix">
                     <div class="col-md-3 column">
                         <div class="row clearfix">
                     <a href="index.php"><img src="img/logo.png" width="100%"/></a>
-		          </div></div>
+              </div></div>
 
                 <div class="col-md-9 column search" >
+                  <form method="get" action="search.php">
                     <div class="row clearfix" style="vertical-align:middle">
                     <div class="col-md-2 column">
-					<select class="form-control" id="select">
-                        <option>Category</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
+
+          <select class="form-control" id="select" name="category">
+                        <option value="all">All Listing</option>
+                        <option value="auc">Auction</option>
+                        <option value="buy">Buy it now</option>
                       </select>
-				</div>
-				<div class="col-md-9 column">
+        </div>
+        <div class="col-md-9 column">
                     <div class="form-group">
-                  <input type="text" class="form-control" id="inputDefault" placeholder="Search">
+                  <input type="text" data-validation="required" class="form-control" id="inputDefault" placeholder="Search" name="search">
                 </div>
-				</div>
-				<div class="col-md-1 column">
-					 <button type="button" class="btn btn-info">Search</button>
-				</div>
+        </div>
+        <div class="col-md-1 column">
+           <button type="submit" class="btn btn-info">Search</button>
+        </div>
                         </div>
-		          </div>
+                        </form>
+              </div>
+      </div>
+    </div>
+    <div class="col-md-1 column">
+     
+    </div>
+  </div>
+  <!-- Search -->
 
-			</div>
-		</div>
-		<div class="col-md-1 column">
-		 
-		</div>
-	</div>
-
-	</div>
+  
 
 	<div class="container">  
 		<div class="col-md-2"> 
@@ -153,7 +160,7 @@
  
                 <div class="col-sm-12" style="margin: 15px">
    			 <div class="well-shadow">
-              <form class="form-horizontal">
+              <form class="form-horizontal" action="account.php" method="get">
                
       
                 <fieldset>
@@ -163,7 +170,7 @@
                     <div class="form-group">
                     <label for="inputSubject" class="col-lg-3 control-label">Subject<text style="color:red">*</text> :</label>
                     <div class="col-lg-6">
-                      <input type="text" class="form-control" id="inputSubject" placeholder="Subject">
+                      <input type="text" data-validation="required" class="form-control" id="inputSubject" placeholder="Subject" name="topic">
                     </div>
                   </div>
                   
@@ -171,7 +178,7 @@
                       <div class="form-group">
                         <label for="textArea" class="col-lg-3 control-label">Descriptions<text style="color:red">*</text> :</label>
                         <div class="col-lg-6">
-                          <textarea class="form-control" rows="3" id="textArea" style="height:200px" placeholder="Descriptions"></textarea>
+                          <textarea class="form-control" data-validation="required" rows="3" id="textArea" style="height:200px" name="content" placeholder="Descriptions"></textarea>
                     
                         </div>
                       </div>
@@ -179,12 +186,32 @@
 
                   <div class="form-group">
                     <div class="col-lg-3 col-lg-offset-7">
-                      <button type="submit" class="btn btn-primary" style="width:60%">Submit</button>
+                      <a href="#myModal" class="btn btn-primary" style="width:60%" data-toggle="modal">Submit</a>
+                      <div id="myModal" class="modal fade">
+                          <div class="modal-dialog">
+                              <div class="modal-content">
+                                  <div class="modal-header">
+                                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                      <h4 class="modal-title">Confirmation</h4>
+                                  </div>
+                                  <div class="modal-body">
+                                      <p>Do you want to submit the report?</p>
+                                      <p class="text-warning"><small>If you don't press cancel.</small></p>
+                                  </div>
+                                  <div class="modal-footer">
+                                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                      <button type="submit" class="btn btn-primary">OK</button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
                     </div>
                   </div>
+
+              
+
                 </fieldset>
               </form>
-            <div id="source-button" class="btn btn-primary btn-xs" style="display: none;">&lt; &gt;</div>
           </div>
           </div>
 
@@ -244,5 +271,14 @@
 
 
   <!--BOTTOM-->
+
+   <script>
+/* important to locate this script AFTER the closing form element, so form object is loaded in DOM before setup is called */
+    $.validate({
+        modules : 'date, security, sweden'
+        
+    });
+   
+</script>
 </body>
 </html>

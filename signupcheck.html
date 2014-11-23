@@ -279,10 +279,10 @@ body {
                 </div>
                 <div class="col-sm-8" style="margin-top:30px">
    <div class="well bs-component">
-              <form class="form-horizontal">
+              <form class="form-horizontal" action="index.php" method="get">
                
       
-                <fieldset>
+                 <fieldset>
                   <legend>Tell about yourself</legend>
                   <span class="label label-info">* indicates required field</span>
                   <br></br>
@@ -290,21 +290,21 @@ body {
                   <div class="form-group">
                     <label for="inputFirstname" class="col-lg-2 control-label">First name*</label>
                     <div class="col-lg-4">
-                      <input type="text" class="form-control" id="inputFirstname" placeholder="First Name">
+                      <input type="text" name="name" class="form-control" id="inputFirstname" placeholder="First Name">
                     </div>
                     <label for="inputLastname" class="col-lg-2 control-label">Last name*</label>
                     <div class="col-lg-4">
-                      <input type="text" class="form-control" id="inputLastname" placeholder="Last Name">
+                      <input type="text" name="surname" class="form-control" id="inputLastname" placeholder="Last Name">
                     </div>
-                  </div>
+                  </div> 
 
                   <div class="form-group">
                     <label for="inputStreet" class="col-lg-2 control-label">Street Address*</label>
                     <div class="col-lg-10">
-                      <input type="text" class="form-control" id="inputStreet" placeholder="Street Address1">
+                      <input type="text"  class="form-control" name="house_number" id="inputStreet" placeholder="Street Address1">
                     </div>
                     <div class="col-lg-offset-2 col-lg-10">
-                      <input type="text" class="form-control" id="inputStreet2" placeholder="Street Address2">
+                      <input type="text" class="form-control" name="road" id="inputStreet2" placeholder="Street Address2">
                     </div>
                   </div>
 
@@ -312,9 +312,9 @@ body {
                   <div class="form-group">
                     <label for="inputCity" class="col-lg-2 control-label">City*</label>
                     <div class="col-lg-4">
-                      <input type="text" class="form-control" id="inputCity" placeholder="City">
+                      <input type="text" class="form-control" name="city" id="inputCity" placeholder="City">
                     </div>
-                    <label for="inputLastname" class="col-lg-2 control-label">Region*</label>
+                   <!--  <label for="inputLastname" class="col-lg-2 control-label">Region*</label>
                     <div class="col-lg-4">
                       <select class="form-control" id="inputCountry">
                             <option>1</option>
@@ -323,80 +323,59 @@ body {
                             <option>4</option>
                             <option>5</option>
                           </select>
-                    </div>
+                    </div> -->
                   </div>
 
                   <div class="form-group">
                     <label for="inputRegion" class="col-lg-2 control-label">Region*</label>
                     <div class="col-lg-4">
-                      <input type="text" class="form-control" id="inputRegion" placeholder="Region">
+                      <input type="text" class="form-control" name="country" id="inputRegion" placeholder="Region">
                     </div>
                     <label for="inputPostCode" class="col-lg-2 control-label">Post Code*</label>
                     <div class="col-lg-4">
-                      <input type="text" class="form-control" id="inputPostCode" placeholder="Post Code">
+                      <input type="text" class="form-control" name="zipcode" id="inputPostCode" placeholder="Post Code">
                     </div>
                   </div>
 
                   <div class="form-group">
                     <label for="inputTel" class="col-lg-2 control-label">Primary Telephone number*</label>
                     <div class="col-lg-4">
-                      <input type="text" class="form-control" id="inputEmail" placeholder="+66812312345">
+                      <input type="text" class="form-control" name="phonenumber"id="inputEmail" placeholder="+66812312345">
                     </div>
-                    <label for="inputSSN" class="col-lg-2 control-label">SSN*</label>
+                    <label for="inputSSN" class="col-lg-2 control-label">ID Number*</label>
                     <div class="col-lg-4">
-                      <input type="text" class="form-control" id="inputSSN" placeholder="123456789000">
+                      <input type="text" class="form-control" name="idcardnumber" id="inputSSN" placeholder="123456789000">
                     </div>
                   </div>
 
                    <div class="form-group">
                     <label for="inputEmail" class="col-lg-2 control-label">Email Address*</label>
                     <div class="col-lg-10">
-                      <input type="text" class="form-control" id="inputEmail" placeholder="Email Address">
+                      <input type="text" class="form-control" name="email_confirmation" id="inputEmail" placeholder="Email Address">
                     </div>
                   </div>
                     <div class="form-group">
                     <label for="inputEmail2" class="col-lg-2 control-label">Re-enter Email Address*</label>
                     <div class="col-lg-10">
-                      <input type="text" class="form-control" id="inputEmail2" placeholder="Email Address">
+                      <input type="text" class="form-control" name="email" id="inputEmail2" placeholder="Email Address">
                     </div>
                   </div>
-                    <h4>Choose your user ID and Password</h4>
-                    <div class="form-group">
-                    <label for="inputID" class="col-lg-3 control-label">Create your user ID*</label>
-                    <div class="col-lg-4">
-                      <input type="text" class="form-control" id="inputID" placeholder="">
-                    </div>
-                  </div>
+                    <h4>Choose your Password</h4>
+                    
                    <div class="form-group">
                     <label for="inputPassword" class="col-lg-3 control-label">Create your password*</label>
                     <div class="col-lg-4">
-                      <input type="password" class="form-control" id="inputPassword" placeholder="">
+                      <input type="password" class="form-control" name="password_confirmation" id="inputPassword" placeholder="">
                     </div>
                   </div>
                        <div class="form-group">
                     <label for="inputPassword2" class="col-lg-3 control-label">Re-enter your password*</label>
                     <div class="col-lg-4">
-                      <input type="password" class="form-control" id="inputPassword2" placeholder="">
+                      <input type="password" class="form-control" name"password" id="inputPassword2" placeholder="">
                     </div>
                   </div>
-                   <div class="form-group">
-                        <label for="inputQuestion" class="col-lg-3 control-label">Pick a secret question</label>
-                        <div class="col-lg-4">
-                          <select class="form-control" id="inputQuestion">
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                          </select>
-                         </div>
-                      </div>         
-                   <div class="form-group">
-                    <label for="inputAnwser" class="col-lg-3 control-label">Your secret Answer*</label>
-                    <div class="col-lg-9">
-                      <input type="text" class="form-control" id="inputAnwser" placeholder="">
-                    </div>
-                  </div>
+                           
+                  
                                   <h4>User Agreement and privacy policy</h4>
                     <div class="form-group">
                       <div class="col-lg-1"></div>
@@ -418,7 +397,7 @@ body {
                     <label for="inpuDate" class="col-lg-2 control-label" >Birth Date</label>
                     <div class="col-lg-10" style="width:220px">
                       <!-- <input type="date" class="form-control" id="inputDate" name="inputDate" data-validation="date"> -->
-                      <input type="text" class ="form-control datepicker" id="inputDate" name="inputDate" 
+                      <input type="text" class ="form-control datepicker" id="inputDate" name="birthdate" 
                             placeholder="dd/mm/yyyy"
                             >
                     </div>
@@ -427,9 +406,31 @@ body {
                   <div class="form-group">
                     <div class="col-lg-10 col-lg-offset-2">
                       <button class="btn btn-default">Back</button>
-                      <button type="submit" class="btn btn-primary" style="margin-left:57px;">Confirm</button>
+                      <a href="#myModal" data-toggle="modal" class="btn btn-primary" style="margin-left:57px;">Confirm</a>
+
+                      <div id="myModal" class="modal fade">
+                          <div class="modal-dialog">
+                              <div class="modal-content">
+                                  <div class="modal-header">
+                                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                      <h4 class="modal-title">Confirmation</h4>
+                                  </div>
+                                  <div class="modal-body">
+                                      <p>Do you want to submit the report?</p>
+                                      <p class="text-warning"><small>If you don't press cancel.</small></p>
+                                  </div>
+                                  <div class="modal-footer">
+                                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                      <button type="submit" class="btn btn-primary">OK</button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+
                     </div>
                   </div>
+
+
                 </fieldset>
               </form>
             <div id="source-button" class="btn btn-primary btn-xs" style="display: none;">&lt; &gt;</div>

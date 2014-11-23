@@ -1265,7 +1265,7 @@
         */
         LANG : {
             errorTitle : 'Form submission failed!',
-            requiredFields : 'You have not answered all required fields',
+            requiredFields : 'You have not answered all required fields222',
             badTime : 'You have not given a correct time',
             badEmail : 'You have not given a correct e-mail address',
             badTelephone : 'You have not given a correct phone number',

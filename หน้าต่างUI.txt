@@ -7,11 +7,11 @@
 6. Status Forget — —X 	P
 7. Report — —X 			P
 8. Report-Good — —X 	P
-9. Report-Confirm —X 	Popup from report form	
+9. Report-Confirm —X 	Popup from report form		P
 10. Report-Submitted	P
 11. Sign Up — X 		P
 12. Sign up Confirm 	P
-13. Sign Up Success 	Popup from Signup
+13. Sign Up Success 	Popup from Signup			
 14. Profile(Bidding) — —X 	P
 15. Profile-History — X 	P	
 16. Profile-Sell — X 		P

@@ -49,7 +49,7 @@ body {
 </head>
 
 <body>
-
+<!-- Header -->
 	<div class="row clearfix">
 		<div class="col-md-12 column">
 			<nav class="navbar navbar-default navbar-default-top navbar-fixed-top" role="navigation">
@@ -66,17 +66,18 @@ body {
                     </ul>
 
 					<ul class="nav navbar-nav navbar-right">
-<!--
+
                         <li>
-                            <a><b>Hi...Pae</b></a>
-                        </li>
--->
-                     \
+							<a href="login1.html">Login</a>
+						</li>
+                        <li>
+							<a href="signup1.html">Signup</a>
+						</li>
 						<li>
 							<a href="#">Sell</a>
 						</li>
                         <li>
-							<a href="#">Account</a>
+							<a href="account.php">Account</a>
 						</li>
                         <li>
 							<a href="#">Logout</a>
@@ -84,14 +85,13 @@ body {
                         <li>
                             <a></a>
                         </li>
-                        
-
 					</ul>
 				</div>
-				
 			</nav>
 		</div>
 	</div>
+<!-- Header -->
+<!-- Search -->
 	<div class="row clearfix bgsearchtop">
 		<div class="col-md-1 column">
 		</div>
@@ -103,42 +103,36 @@ body {
 		          </div></div>
 
                 <div class="col-md-9 column search" >
+                	<form method="get" action="search.php">
                     <div class="row clearfix" style="vertical-align:middle">
                     <div class="col-md-2 column">
-					<select class="form-control" id="select">
-                        <option>Category</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
+
+					<select class="form-control" id="select" name="category">
+                        <option value="all">All Listing</option>
+                        <option value="auc">Auction</option>
+                        <option value="buy">Buy it now</option>
                       </select>
 				</div>
 				<div class="col-md-9 column">
                     <div class="form-group">
-                  <input type="text" class="form-control" id="inputDefault" placeholder="Search">
+                  <input type="text" data-validation="required" class="form-control" id="inputDefault" placeholder="Search" name="search">
                 </div>
 				</div>
 				<div class="col-md-1 column">
-					 <button type="button" class="btn btn-info">Search</button>
+					 <button type="submit" class="btn btn-info">Search</button>
 				</div>
                         </div>
+                        </form>
 		          </div>
-
 			</div>
 		</div>
 		<div class="col-md-1 column">
 		 
 		</div>
 	</div>
-
-	<div class="row clearfix">
-		<div class="col-md-12 column">
-            
-     <p>&nbsp;</p>
-		</div>
-	</div>
+	<!-- Search -->
  <!--  zone profile-->
-	<div class="container">
+	<div class="container" style="margin-top:30px">
 		
     <div class="row clearfix" style="height:200px">
     	<div class="col-md-1 column">

@@ -136,7 +136,7 @@ body {
                 </div>
                 <div class="col-sm-8">
     <div class="well-shadow" style="margin-top:60px; ">
-              <form class="form-horizontal">
+              <form class="form-horizontal" method="get" action="index.php">
                
       
                 <fieldset>
@@ -166,19 +166,19 @@ body {
                                 <div class="col-lg-12">
                                   <div class="radio">
                                     <label>
-                                      <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+                                      <input type="radio" name="satisfaction" id="optionsRadios1" value="1" checked="">
                                       Positive
                                     </label>
                                   </div>
                                   <div class="radio">
                                     <label>
-                                      <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                                      <input type="radio" name="satisfaction" id="optionsRadios2" value="2">
                                       Neutral
                                     </label>
                                      </div>
                                   <div class="radio">
                                     <label>
-                                      <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
+                                      <input type="radio" name="satisfaction" id="optionsRadios3" value="3">
                                       Negative
                                     </label>
                                   </div>
@@ -229,7 +229,7 @@ body {
                         </div>
                         <!-- <label for="inputAbout" class="col-lg-3 control-label">About :</label> -->
                         <div class="col-lg-6">
-                          <textarea class="form-control" rows="3" id="textArea" style="height:250px"></textarea>
+                          <textarea class="form-control" name="comment" rows="3" id="textArea" style="height:250px"></textarea>
                     
                         </div>
                         <div class="col-lg-2">
@@ -255,7 +255,7 @@ body {
                                   </div>
                                   <div class="modal-footer">
                                       <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                      <button type="button" class="btn btn-primary">OK</button>
+                                      <button type="submit" class="btn btn-primary">OK</button>
                                   </div>
                               </div>
                           </div>

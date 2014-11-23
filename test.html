@@ -46,12 +46,14 @@ body {
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/scripts.js"></script>
     <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/form-validator/jquery.form-validator.min.js"></script>
 </head>
 
 <form action="" method="POST">
   <p>
     Name (4 characters minimum):
-    <input name="user" data-validation="length" data-validation-length="min4" />
+    <input name="user" data-validation="required" />
+
   </p>
   <p>
     Birthdate (yyyy-mm-dd):
@@ -64,6 +66,13 @@ body {
   <p>
     <input type="submit" />
   </p>
+  <p>
+  Password (at least 8 characters)
+  <input name="passwor_confirmation" data-validation="length" data-validation-length="min8"/>
+
+  Confirm password
+  <input name="password" data-validation="confirmation">
+</p>
 </form>
 <script src="js/jquery.min.js"></script>
 <script src="js/form-validator/jquery.form-validator.min.js"></script>
@@ -75,11 +84,5 @@ body {
    
 </script>
 
-<span class="star-rating">
-  <input type="radio" name="rating" value="1"><i></i>
-  <input type="radio" name="rating" value="2"><i></i>
-  <input type="radio" name="rating" value="3"><i></i>
-  <input type="radio" name="rating" value="4"><i></i>
-  <input type="radio" name="rating" value="5"><i></i>
-</span>
-<strong class="choice">Choose a rating</strong>
+
+

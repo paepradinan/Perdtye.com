@@ -19,3 +19,7 @@ $(':radio').change(
     $('.choice').text( this.value + ' stars' );
   } 
 ); 
+$.validate({
+        modules : 'date, security, sweden'
+        
+    });

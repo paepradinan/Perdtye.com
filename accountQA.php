@@ -17,7 +17,7 @@ body {
 </style>
   <a name="top"></a>
   <meta charset="utf-8">
-  <title>Perdtye - Home</title>
+  <title>Perdtye - Account</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
   <meta name="author" content="">
@@ -46,7 +46,6 @@ body {
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/scripts.js"></script>
-	<script src="js/form-validator/jquery.form-validator.min.js"></script>
 </head>
 
 <body>
@@ -132,94 +131,179 @@ body {
 		</div>
 	</div>
 	<!-- Search -->
+ <!--  zone profile-->
+	<div class="container" style="margin-top:30px">
+		
+    <div class="row clearfix" style="height:200px">
+    	<div class="col-md-1 column">
+		 
+		</div>
+		
+		<div class="col-md-3 column">
+			<img alt="200x200" class="img-thumbnail" src="img/mhoo.jpg" />
+		
+	    </div>
+	    
+		<div class="col-md-4 column">
+			<div class="well-shadow">
+				<h4 style="text-align:top"> Name : John Test </h4>
+			<p>&nbsp;</p>
+			<h5 style="text-align:center">
+				Feeding Ratings
+			</h5>
+				 <table class="table table-bordered" style="border-spacing: 2px">
+				 	<thread>
+				 		<th style="text-align:center">
+				 			<text style="font-size:110%">(+)5,555</text>
+				 			<text style="font-size:110%">Positive</text>
+				 		</th>
+				 		<th style="text-align:center">
+				 			<text style="font-size:110%">(o)35</text>
+				 			<text style="font-size:110%">Neutral</text>
+				 		</th>
+				 		<th style="text-align:center">
+				 			<text style="font-size:110%">(-)345</text>
+				 			<text style="font-size:110%">Negative</text>
+				 		</th>
+				 	</thread>
+				 </table>
+				
 
-
-	<div class="row clearfix">
-		<div class="col-md-12 column">
-            
-     <p>&nbsp;</p>
 		</div>
 	</div>
-	<!-- Top item -->
-    <div class="container">
+		<div class="col-md-1 column">
+			
+			<p>&nbsp;</p>
+			 <a href="editprofile.html" class="btn btn-default" style="width:300%">Edit Profile</a> 
+				<p>&nbsp;</p>
+
+
+			 <a href="report.html" class="btn btn-default"  style="width:300%">Report</a> 
+			 	<p>&nbsp;</p>
+			 <a type="button" class="btn btn-default"  style="width:300%">Sell Register</a>
+		</div>
+		<div class="col-md-3 column">
+		</div>
+	</div>
+
+</div>
+
+
+<!--  Zone summary-->
+
+<div class="container" style="margin-top:30px">
+	
 	<div class="row clearfix">
+		<div class="col-md-1 column">
+		</div>
+
+		<div class="col-md-8 column">
+<ul class="nav nav-tabs">
+  <li class="active"><a  data-toggle="tab" aria-expanded="true">Summary</a></li>
+  
+    
+  
+</ul>
+   <div class="container">
+
 		<div class="col-md-12 column">
-			<div class="row clearfix">
-				<div class="col-md-1 column">
-				</div>
-				<div class="col-md-10 column">
-                    <?php 
-                        for ($x = 0; $x <= 2; $x++) {
-                           ?>
-                            <div class="row clearfix">
-                                
-                                    <?php
-                                            for ($y = 0; $y <= 2; $y++) {
-                                        ?>
-                                            <div class="col-md-4 column">
-				                            <div class="row clearfix">
-                                                    <div class="col-md-1 column">
-                                                    </div>
-                                            <div class="col-md-11 column">
-                                                <div class="row">
- 
-    <div class="thumbnail">
-      <img src="img/i6.png" >
-      <div class="caption">
-        <h3>iPhone6 64gb Gold</h3>
-        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit. ...</p>
-          <div class="row clearfix">
-              <div class="col-md-6 column">
-                <h4 style="color:red;">Price : $300.21</h4>
-              </div>
-              <div class="col-md-6 column">
-                  <a href="#" class="btn btn-default" style="float: right" role="button">Buy Now</a>
-              </div>
-          </div>
-<!--        <p style="margin-right:0px"><a href="#" class="btn btn-primary" role="button">Details</a> <a href="#" class="btn btn-default" role="button">Buy Now</a></p>-->
-      </div>
-    </div>
-  </div>
-								            </div>
-<!--
-								            <div class="col-md-1 column">
-								            </div>
--->
-                                                </div>
-						                      </div>
-                                        <?php
-                                            } 
-                                        ?></div><?php
-                        } 
-                    ?>
+
+			
+				
+				<div class="col-md-2 column">
+					<h4>
+						My Profile : Q/A
+					</h4> 
+					<!-- <button type="button" class="btn btn-default" style="width:100%">Buy</button>  -->
+					<a href="account.php" class="btn btn-default "style="width:100%">Bidding</a> 
+					<a href="accountdidntwin.php" class="btn btn-default"style="width:100%">Didn't Win</a> 
 					
+						<a href="accounthistory.php" class="btn btn-default"style="width:100%">History</a>
+					
+						 <a href="accountsell.php" class="btn btn-default" style="width:100%">Sell</a>
+						 <a href="accountQA.php" class="btn btn-default disabled" style="width:100%">QA</a>
+				
 				</div>
-				<div class="col-md-1 column">
+				<p>&nbsp;</p>
+				<div class="col-md-8 column">
+					<h4>
+						Q/A
+					</h4>
+					<table class="table"  style="table-layout: fixed; width: 100%">
+						<thead>
+							<tr>
+								<th width="5%">
+									#
+								</th>
+								<th width="25%">
+									Product
+								</th>
+								<th width="15%">
+									Shop
+								</th>
+								<th width="15%">
+									Time
+								</th>
+								<th width="20%">
+									Question
+								</th>
+								<th width="20%">
+									Answer
+								</th>
+							</tr>
+						</thead>
+
+						<tbody>
+							<?php for($x=1;$x<=10;$x++){?>
+							<tr class="active">
+								<td>
+									<?php echo $x ?>
+								</td>
+								<td>
+									<img src="img/iphone6 icon.jpg" width="100%"/>
+									<p style="margin-top:15px;"><center>Iphone6</center></p>
+								</td>
+								<td style="word-wrap: break-word;">
+									<text>Shop1</text>
+									<text>(feedback)</text>
+								</td>
+								<td>
+									<text>4h 42m left</text>
+								</td>
+								<td style="word-wrap: break-word;">
+									ฟหกฟกกาหกาก่รหกรหกห่กหกสหกวสหวกสหกๆไกืๆไำิๆืไอกเหกฟีห้กฟหทสทำส
+									
+								</td>
+								<td style="word-wrap: break-word;">
+									Waiting for answer from seller
+								</td>
+							</tr>
+							<?php
+						}
+						?>
+							
+							
+						</tbody>
+					</table>
 				</div>
+ 
+  				</div>
+ 				 </div>
 			</div>
 		</div>
 	</div>
-	<div class="row clearfix">
-		<div class="col-md-12 column">
-		</div>
-	</div>
-    
-            <p>&nbsp;</p>
-	
-
-
+</div>
   
    <div class="row clearfix">
     <div class="col-md-12 column">
     </div>
   </div>
-        </div>
-        <!-- Top item -->
+       
     <!--BOTTOM-->
-  <div class="row clearfix" style="margin-top:20px;">
+  <div class="row clearfix">
     <div class="col-md-12 column">
       <nav class="navbar navbar-default navbar-bottom2" role="navigation">
-           
+                
                     <ul class="nav navbar-nav">
                         <li><a></a></li>
             <li>
@@ -239,7 +323,6 @@ body {
             </li>
                         
           </ul>
-               
                     <ul class="nav navbar-nav navbar-right ">
                         <li>
                             <a  href="#top">Back to top</a>
@@ -251,15 +334,8 @@ body {
     </div>
   </div>
 
+
   <!--BOTTOM-->
-    <script>
-/* important to locate this script AFTER the closing form element, so form object is loaded in DOM before setup is called */
-    $.validate({
-        modules : 'date, security, sweden'
-        
-    });
-   
-</script>
 
 
 </body>
