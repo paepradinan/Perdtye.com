@@ -229,7 +229,7 @@ body {
               <a href="#">About</a>
             </li>
                         <li>
-              <a href="#">Report</a>
+              <a href="report.html">Report</a>
             </li>
                         <li>
               <a href="#">Privacy</a>

@@ -200,32 +200,20 @@ body {
 
 		<div class="col-md-8 column">
 <ul class="nav nav-tabs">
-  <li class="active"><a data-toggle="tab" aria-expanded="true">Summary</a></li>
-  
+  <li class="active"><a href="#bidding" data-toggle="tab" aria-expanded="true">Bidding</a></li>
+  <li class=""><a href="#didntwin" data-toggle="tab" aria-expanded="true">Didn't Win</a></li>
+  <li class=""><a href="#history" data-toggle="tab" aria-expanded="true">History</a></li>
+  <li class=""><a href="#sell" data-toggle="tab" aria-expanded="true">Sell</a></li>
+  <li class=""><a href="#qa" data-toggle="tab" aria-expanded="true">Q/A</a></li>
     
   
 </ul>
-   <div class="container">
-
+<div id="myTabContent" class="tab-content">
+  <div class="tab-pane fade active in" id="bidding">
+   <!-- <div class="container"> -->
+<!-- bidding -->
 		<div class="col-md-12 column">
-
-			
-				
-				<div class="col-md-2 column">
-					<h4>
-						My Profile : Bidding
-					</h4> 
-					<!-- <button type="button" class="btn btn-default" style="width:100%">Buy</button>  -->
-					<a href="account.php" class="btn btn-default disabled"style="width:100%">Bidding</a> 
-					<a href="accountdidntwin.php" class="btn btn-default"style="width:100%">Didn't Win</a> 
-					
-						<a href="accounthistory.php" class="btn btn-default"style="width:100%">History</a>
-					
-						 <a href="accountsell.php" class="btn btn-default" style="width:100%">Sell</a>
-						 <a href="accountQA.php" class="btn btn-default" style="width:100%">QA</a>
-				</div>
 				<p>&nbsp;</p>
-				<div class="col-md-8 column">
 					<h4>
 						Biding
 					</h4>
@@ -306,15 +294,267 @@ body {
 							
 						</tbody>
 					</table>
-				</div>
- 
-  				</div>
+ 				</div>
+ 				</div>
+  				<!-- Didntwin -->
+  				 <div class="tab-pane fade" id="didntwin">
+  				 		<div class="col-md-12 column">
+  				 			<p>&nbsp;</p>
+  				 			<h4>Didn't Win</h4>
+					<table class="table" style="table-layout: fixed; width: 100%">
+						<thead>
+							<tr>
+								<th width="5%">
+									#
+								</th>
+								<th width="25%">
+									Product
+								</th>
+								<th width="17%">
+									Shop
+								</th>
+								<th width="17%">
+									Time
+								</th>
+								<th width="18%">
+									Price
+								</th>
+								<th width="18%">
+									Last Price
+								</th>
+							</tr>
+						</thead>
+
+						<tbody>
+							<?php for($x=1;$x<=10;$x++){?>
+							<tr class="active">
+								<td>
+									<?php echo $x ?>
+								</td>
+								<td>
+									<img src="img/iphone6 icon.jpg" width="100%"/>
+									<p style="margin-top:15px;"><center>Iphone6</center></p>
+								</td>
+								<td>
+									<text>Shop1</text>
+									<text>(feedback)</text>
+								</td>
+								<td>
+									<text>4h 42m left</text>
+								</td>
+								<td>
+									<p style="color:red">THB 14,532</p>
+									<p>21 bids</p>
+								</td>
+								<td>
+									<p style="color:#33AA00">THB 32,532</p>
+								</td>
+							</tr>
+							<?php
+						}
+						?>
+						</tbody>
+						</table>
+  				 		</div>
+  				 </div>
+  				 <!-- history -->
+  				  	<div class="tab-pane fade" id="history">
+  				 		<div class="col-md-12 column">
+  				 			<p>&nbsp;</p>
+  				 			<h4>
+						History
+					</h4>
+					<table class="table" style="table-layout: fixed; width: 100%">
+						<thead>
+							<tr>
+								<th width="5%">
+									#
+								</th>
+								<th width="25%">
+									Product
+								</th>
+								<th width="17%">
+									Shop
+								</th>
+								<th width="17%">
+									Order Time
+								</th>
+								<th width="18%">
+									Price
+								</th>
+								<th width="18%">
+									Status
+								</th>
+							</tr>
+						</thead>
+
+						<tbody>
+							<?php for($x=1;$x<=10;$x++){?>
+							<tr class="active">
+								<td>
+									<?php echo $x ?>
+								</td>
+								<td>
+									<img src="img/iphone6 icon.jpg" width="100%"/>
+									<p style="margin-top:15px;"><center>Iphone6</center></p>
+								</td>
+								<td>
+									<text>Shop1</text>
+									<text>(feedback)</text>
+								</td>
+								<td>
+									<text>4h 42m left</text>
+								</td>
+								<td>
+									<p style="color:black">THB 14,532</p>
+								</td>
+								<td>
+									<a href="#" class="btn btn-success" style="width:100%;">Give Feedback</a>
+									<p><a href="#" class="btn btn-info" style="width:100%; margin-top:10px;">Report</a></p>
+								</td>
+							</tr>
+							<?php
+						}
+						?>
+							
+							
+						</tbody>
+					</table>
+  				 		</div>
+  				 	</div>
+  				 <!-- history -->
+  				  	<div class="tab-pane fade" id="sell">
+  				 		<div class="col-md-12 column">
+  				 			<p>&nbsp;</p>
+  				 			<h4>
+						Sell
+					</h4>
+					<table class="table" style="table-layout: fixed; width: 100%">
+						<thead>
+							<tr>
+								<th width="5%">
+									#
+								</th>
+								<th width="25%">
+									Product
+								</th>
+								<th width="15%">
+									Order
+								</th>
+								<th width="15%">
+									Available
+								</th>
+								<th width="20%">
+									Price
+								</th>
+								<th width="20%">
+									
+								</th>
+							</tr>
+						</thead>
+
+						<tbody>
+							<?php for($x=1;$x<=10;$x++){?>
+							<tr class="active">
+								<td>
+									<?php echo $x ?>
+								</td>
+								<td>
+									<img src="img/iphone6 icon.jpg" width="100%"/>
+									<p style="margin-top:15px;"><center>Iphone6</center></p>
+								</td>
+								<td>
+									<text>360 orders</text>
+								</td>
+								<td>
+									<text>2032 items</text>
+								</td>
+								<td>
+									<p style="color:black">THB 14,532</p>
+								</td>
+								<td>
+									<a href="#" class="btn btn-success" style="width:100%;">edit sell</a>
+								</td>
+							</tr>
+							<?php
+						}
+						?>
+							
+							
+						</tbody>
+					</table>
+  				 		</div>
+  				 	</div>
+  				 <!-- history -->
+  				  	<div class="tab-pane fade" id="qa">
+  				 		<div class="col-md-12 column">
+  				 			<p>&nbsp;</p>
+  				 			<h4>
+						Q/A
+					</h4>
+					<table class="table"  style="table-layout: fixed; width: 100%">
+						<thead>
+							<tr>
+								<th width="5%">
+									#
+								</th>
+								<th width="25%">
+									Product
+								</th>
+								<th width="15%">
+									Shop
+								</th>
+								<th width="15%">
+									Time
+								</th>
+								<th width="20%">
+									Question
+								</th>
+								<th width="20%">
+									Answer
+								</th>
+							</tr>
+						</thead>
+
+						<tbody>
+							<?php for($x=1;$x<=10;$x++){?>
+							<tr class="active">
+								<td>
+									<?php echo $x ?>
+								</td>
+								<td>
+									<img src="img/iphone6 icon.jpg" width="100%"/>
+									<p style="margin-top:15px;"><center>Iphone6</center></p>
+								</td>
+								<td style="word-wrap: break-word;">
+									<text>Shop1</text>
+									<text>(feedback)</text>
+								</td>
+								<td>
+									<text>4h 42m left</text>
+								</td>
+								<td style="word-wrap: break-word;">
+									ฟหกฟกกาหกาก่รหกรหกห่กหกสหกวสหวกสหกๆไกืๆไำิๆืไอกเหกฟีห้กฟหทสทำส
+									
+								</td>
+								<td style="word-wrap: break-word;">
+									Waiting for answer from seller
+								</td>
+							</tr>
+							<?php
+						}
+						?>
+							
+							
+						</tbody>
+					</table>
+  				 		</div>
+  				 	</div>
+
  				 </div>
  				</div>
- 				 
 		</div>
 	</div>
-</div>
   
    <div class="row clearfix">
     <div class="col-md-12 column">
