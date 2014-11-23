@@ -422,7 +422,7 @@ body {
 					</table>
   				 		</div>
   				 	</div>
-  				 <!-- history -->
+  				 <!-- Sell-->
   				  	<div class="tab-pane fade" id="sell">
   				 		<div class="col-md-12 column">
   				 			<p>&nbsp;</p>
@@ -473,7 +473,7 @@ body {
 									<p style="color:black">THB 14,532</p>
 								</td>
 								<td>
-									<a href="#" class="btn btn-success" style="width:100%;">edit sell</a>
+									<a href="editdirectsell.html" class="btn btn-success" style="width:100%;">edit sell</a>
 								</td>
 							</tr>
 							<?php
@@ -485,7 +485,7 @@ body {
 					</table>
   				 		</div>
   				 	</div>
-  				 <!-- history -->
+  				 <!-- Q/A -->
   				  	<div class="tab-pane fade" id="qa">
   				 		<div class="col-md-12 column">
   				 			<p>&nbsp;</p>
