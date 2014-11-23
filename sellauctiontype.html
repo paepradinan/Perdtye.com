@@ -56,7 +56,7 @@ background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAKCAQAAADI+Ww
 </style>
   <a name="top"></a>
   <meta charset="utf-8">
-  <title>Perdtye - Login</title>
+  <title>Perdtye - SellAuction</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
   <meta name="author" content="">
@@ -69,7 +69,7 @@ background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAKCAQAAADI+Ww
   <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
-
+<link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css" />
   <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
   <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
@@ -87,6 +87,7 @@ background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAKCAQAAADI+Ww
   <script type="text/javascript" src="js/scripts.js"></script>
     <script src="js/bootstrap-datepicker.js"></script>
      <script type="text/javascript" src="js/bootstrap-timepicker.min.js"></script>
+   <script type="text/javascript" src="js/bootstrap-datetimepicker.min.js"></script>
 </head>
 
 <body>
@@ -247,20 +248,15 @@ background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAKCAQAAADI+Ww
   </div>
 -->
 <!--  Search-->
-    <div class="row clearfix bgsearchtop">
+   <div class="row clearfix bgsearchtop">
     <div class="col-md-1 column">
     </div>
     <div class="col-md-10 column bgsearch">
       <div class="row clearfix">
                     <div class="col-md-3 column">
                         <div class="row clearfix">
-<<<<<<< HEAD
-                    <a href="index.php"><img src="logo.png" width="100%"/></a>
-              </div></div>
-=======
                     <a href="index.php"><img src="img/logo.png" width="100%"/></a>
-		          </div></div>
->>>>>>> origin/master
+              </div></div>
 
                 <div class="col-md-9 column search" >
                     <div class="row clearfix" style="vertical-align:middle">
@@ -283,9 +279,6 @@ background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAKCAQAAADI+Ww
         </div>
                         </div>
               </div>
-
-      </div>
-    </div>
     <div class="col-md-1 column">
      
     </div>
@@ -399,6 +392,7 @@ background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAKCAQAAADI+Ww
 </div>
  <!-- Calendat -->  
   </div>
+   <!-- Row Begining time --> 
      <div class="row" style="margin-top:15px">
     <div class="col-md-2"></div>
     <div class="col-md-2" style="margin-left:50px">
@@ -410,28 +404,51 @@ background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAKCAQAAADI+Ww
 
    
   </div>
+   <!--  Row Endinng time --> 
        <div class="row" style="margin-top:10px">
     <div class="col-md-2"></div>
-    <div class="col-md-1" style="margin-left:50px">
+    <div class="col-md-2" style="margin-left:50px">
       <label style="font-size:15px; margin-top:7px;">*Ending Time :</label>
     </div>
-       <div class="col-md-2">
-       
-        
+       <div class="col-md-5">
 
+
+   <div class="well">
+  <div id="datetimepicker3" class="input-append">
+    <input data-format="hh:mm:ss" type="text"></input>
+    <span class="add-on">
+      <i data-time-icon="icon-time" data-date-icon="icon-calendar">
+      </i>
+    </span>
+  </div>
+</div>
+<script type="text/javascript">
+  $(function() {
+    $('#datetimepicker3').datetimepicker({
+      pickDate: false
+    });
+  });
+</script>
+
+<!--
    <input type="text" class ="form-control datepicker" id="inputDate" name="inputDate" 
                             placeholder="date"
                             >
                             <script>
       $('.datepicker').datepicker({
-        format: "dd/mm/yyyy ",
+        format: "dd/MM/yyyy hh:mm:ss ",
         autoclose: true,
         todayHighlight: true
       });
     </script>
 
+-->
+
+
+
       </div>
  </div>
+
        <div class="row" style="margin-top:10px">
     <div class="col-md-2"></div>
     <div class="col-md-2" style="margin-left:50px">
