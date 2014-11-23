@@ -46,10 +46,11 @@ body {
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/scripts.js"></script>
+	<script src="js/form-validator/jquery.form-validator.min.js"></script>
 </head>
 
 <body>
-
+<!-- Header -->
 	<div class="row clearfix">
 		<div class="col-md-12 column">
 			<nav class="navbar navbar-default navbar-default-top navbar-fixed-top" role="navigation">
@@ -66,17 +67,18 @@ body {
                     </ul>
 
 					<ul class="nav navbar-nav navbar-right">
-<!--
+
                         <li>
-                            <a><b>Hi...Pae</b></a>
-                        </li>
--->
-                     \
+							<a href="login1.html">Login</a>
+						</li>
+                        <li>
+							<a href="signup1.html">Signup</a>
+						</li>
 						<li>
 							<a href="#">Sell</a>
 						</li>
                         <li>
-							<a href="#">Account</a>
+							<a href="account.php">Account</a>
 						</li>
                         <li>
 							<a href="#">Logout</a>
@@ -84,14 +86,13 @@ body {
                         <li>
                             <a></a>
                         </li>
-                        
-
 					</ul>
 				</div>
-				
 			</nav>
 		</div>
 	</div>
+<!-- Header -->
+<!-- Search -->
 	<div class="row clearfix bgsearchtop">
 		<div class="col-md-1 column">
 		</div>
@@ -103,42 +104,36 @@ body {
 		          </div></div>
 
                 <div class="col-md-9 column search" >
+                	<form method="get" action="search.php">
                     <div class="row clearfix" style="vertical-align:middle">
                     <div class="col-md-2 column">
-					<select class="form-control" id="select">
-                        <option>Category</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
+
+					<select class="form-control" id="select" name="category">
+                        <option value="all">All Listing</option>
+                        <option value="auc">Auction</option>
+                        <option value="buy">Buy it now</option>
                       </select>
 				</div>
 				<div class="col-md-9 column">
                     <div class="form-group">
-                  <input type="text" class="form-control" id="inputDefault" placeholder="Search">
+                  <input type="text" data-validation="required" class="form-control" id="inputDefault" placeholder="Search" name="search">
                 </div>
 				</div>
 				<div class="col-md-1 column">
-					 <button type="button" class="btn btn-info">Search</button>
+					 <button type="submit" class="btn btn-info">Search</button>
 				</div>
                         </div>
+                        </form>
 		          </div>
-
 			</div>
 		</div>
 		<div class="col-md-1 column">
 		 
 		</div>
 	</div>
-
-	<div class="row clearfix">
-		<div class="col-md-12 column">
-            
-     <p>&nbsp;</p>
-		</div>
-	</div>
+	<!-- Search -->
  <!--  zone profile-->
-	<div class="container">
+	<div class="container" style="margin-top:30px">
 		
     <div class="row clearfix" style="height:200px">
     	<div class="col-md-1 column">
@@ -205,14 +200,11 @@ body {
 
 		<div class="col-md-8 column">
 <ul class="nav nav-tabs">
-  <li class="active"><a href="#home2" data-toggle="tab" aria-expanded="true">Summary</a></li>
-  <li class=""><a href="#profile2" data-toggle="tab" aria-expanded="false">Q/A</a></li>
+  <li class="active"><a data-toggle="tab" aria-expanded="true">Summary</a></li>
   
     
   
 </ul>
-<div id="myTabContent" class="tab-content">
-  <div class="tab-pane fade active in" id="home2">
    <div class="container">
 
 		<div class="col-md-12 column">
@@ -224,14 +216,14 @@ body {
 						My Profile : History
 					</h4> 
 					<!-- <button type="button" class="btn btn-default" style="width:100%">Buy</button>  -->
-					<button type="button" class="btn btn-default "style="width:100%">Bidding</button> 
-					<button type="button" class="btn btn-default"style="width:100%">Didn't Win</button> 
-					<a href="editHistoryProfile.html">
-						<button type="button" class="btn btn-default  disabled"style="width:100%">History</button>
-					</a>
-					<a href="editSellProfile.html">
-						 <button type="button" class="btn btn-default" style="width:100%">Sell</button>
-					</a>
+					<a href="account.php" class="btn btn-default"style="width:100%">Bidding</a> 
+					<a href="accountdidntwin.php" class="btn btn-default"style="width:100%">Didn't Win</a> 
+					
+						<a href="accounthistory.php" class="btn btn-default disabled"style="width:100%">History</a>
+					
+						 <a href="accountsell.php" class="btn btn-default" style="width:100%">Sell</a>
+						 <a href="accountQA.php" class="btn btn-default" style="width:100%">QA</a>
+					
 				</div>
 				<p>&nbsp;</p>
 				<div class="col-md-8 column">
@@ -299,72 +291,7 @@ body {
   				</div>
  				 </div>
  				</div>
- 				 <div class="tab-pane fade" id="profile2">
-  				 		<div class="col-md-12 column">
-					<h4>
-						Q/A
-					</h4>
-					<table class="table"  style="table-layout: fixed; width: 100%">
-						<thead>
-							<tr>
-								<th width="5%">
-									#
-								</th>
-								<th width="25%">
-									Product
-								</th>
-								<th width="15%">
-									Shop
-								</th>
-								<th width="15%">
-									Time
-								</th>
-								<th width="20%">
-									Question
-								</th>
-								<th width="20%">
-									Answer
-								</th>
-							</tr>
-						</thead>
-
-						<tbody>
-							<?php for($x=1;$x<=10;$x++){?>
-							<tr class="active">
-								<td>
-									<?php echo $x ?>
-								</td>
-								<td>
-									<img src="img/iphone6 icon.jpg" width="100%"/>
-									<p style="margin-top:15px;"><center>Iphone6</center></p>
-								</td>
-								<td style="word-wrap: break-word;">
-									<text>Shop1</text>
-									<text>(feedback)</text>
-								</td>
-								<td>
-									<text>4h 42m left</text>
-								</td>
-								<td style="word-wrap: break-word;">
-									ฟหกฟกกาหกาก่รหกรหกห่กหกสหกวสหวกสหกๆไกืๆไำิๆืไอกเหกฟีห้กฟหทสทำส
-									
-								</td>
-								<td style="word-wrap: break-word;">
-									Waiting for answer from seller
-								</td>
-							</tr>
-							<?php
-						}
-						?>
-							
-							
-						</tbody>
-					</table>
-				</div>
- 
-  				</div>
-  				</div>
-			</div>
+ 				 
 		</div>
 	</div>
 </div>
@@ -411,7 +338,14 @@ body {
 
 
   <!--BOTTOM-->
-
+    <script>
+/* important to locate this script AFTER the closing form element, so form object is loaded in DOM before setup is called */
+    $.validate({
+        modules : 'date, security, sweden'
+        
+    });
+   
+</script>
 
 </body>
 </html>

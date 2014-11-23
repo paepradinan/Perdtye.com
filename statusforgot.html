@@ -46,152 +46,92 @@ body {
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/scripts.js"></script>
+	<script src="js/form-validator/jquery.form-validator.min.js"></script>
 </head>
 
 <body>
-
-	<div class="row clearfix">
-		<div class="col-md-12 column">
-			<nav class="navbar navbar-default navbar-default-top navbar-fixed-top" role="navigation">
-				<div class="navbar-header">
-					 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="#">PerdTye</a>
-				</div>
-				
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+<!-- Header -->
+  <div class="row clearfix">
+    <div class="col-md-12 column">
+      <nav class="navbar navbar-default navbar-default-top navbar-fixed-top" role="navigation">
+        <div class="navbar-header">
+           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="#">Perdtye</a>
+        </div>
+        
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
                         
-						<li>
+            <li>
                             <a><b><Sukhumvit>"ประดินันทน์ เพชรเรืองรอง"</Sukhumvit></b></a>
                         </li>
                     </ul>
-<!--
-					<ul class="nav navbar-nav">
-						<li class="active">
-							<a href="#">Link</a>
-						</li>
-						<li>
-							<a href="#">Link</a>
-						</li>
-						<li class="dropdown">
-							 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown<strong class="caret"></strong></a>
-							<ul class="dropdown-menu">
-								<li>
-									<a href="#">Action</a>
-								</li>
-								<li>
-									<a href="#">Another action</a>
-								</li>
-								<li>
-									<a href="#">Something else here</a>
-								</li>
-								<li class="divider">
-								</li>
-								<li>
-									<a href="#">Separated link</a>
-								</li>
-								<li class="divider">
-								</li>
-								<li>
-									<a href="#">One more separated link</a>
-								</li>
-							</ul>
-						</li>
-					</ul>
--->
-					<ul class="nav navbar-nav navbar-right">
-<!--
+
+          <ul class="nav navbar-nav navbar-right">
+
                         <li>
-                            <a><b>Hi...Pae</b></a>
-                        </li>
--->
+              <a href="login1.html">Login</a>
+            </li>
                         <li>
-							<a href="login1.html">Login</a>
-						</li>
+              <a href="signup1.html">Signup</a>
+            </li>
+            <li>
+              <a href="#">Sell</a>
+            </li>
                         <li>
-							<a href="signup1.html">Signup</a>
-						</li>
-						<li>
-							<a href="#">Sell</a>
-						</li>
+              <a href="account.php">Account</a>
+            </li>
                         <li>
-							<a href="#">Account</a>
-						</li>
-                        <li>
-							<a href="#">Logout</a>
-						</li>
+              <a href="#">Logout</a>
+            </li>
                         <li>
                             <a></a>
                         </li>
-                        
-<!--
-						<li class="dropdown">
-							 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown<strong class="caret"></strong></a>
-							<ul class="dropdown-menu">
-								<li>
-									<a href="#">Action</a>
-								</li>
-								<li>
-									<a href="#">Another action</a>
-								</li>
-								<li>
-									<a href="#">Something else here</a>
-								</li>
-								<li class="divider">
-								</li>
-								<li>
-									<a href="#">Separated link</a>
-								</li>
-							</ul>
-						</li>
--->
-					</ul>
-				</div>
-				
-			</nav>
-		</div>
-	</div>
-
-<!--	Search-->
-    <div class="row clearfix bgsearchtop">
-		<div class="col-md-1 column">
-		</div>
-		<div class="col-md-10 column bgsearch">
-			<div class="row clearfix">
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+<!-- Header -->
+<!-- Search -->
+  <div class="row clearfix bgsearchtop">
+    <div class="col-md-1 column">
+    </div>
+    <div class="col-md-10 column bgsearch">
+      <div class="row clearfix">
                     <div class="col-md-3 column">
                         <div class="row clearfix">
                     <a href="index.php"><img src="img/logo.png" width="100%"/></a>
-		          </div></div>
+              </div></div>
 
                 <div class="col-md-9 column search" >
+                  <form method="get" action="search.php">
                     <div class="row clearfix" style="vertical-align:middle">
                     <div class="col-md-2 column">
-					<select class="form-control" id="select">
-                        <option>Category</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
+
+          <select class="form-control" id="select" name="category">
+                        <option value="all">All Listing</option>
+                        <option value="auc">Auction</option>
+                        <option value="buy">Buy it now</option>
                       </select>
-				</div>
-				<div class="col-md-9 column">
+        </div>
+        <div class="col-md-9 column">
                     <div class="form-group">
-                  <input type="text" class="form-control" id="inputDefault" placeholder="Search">
+                  <input type="text" data-validation="required" class="form-control" id="inputDefault" placeholder="Search" name="search">
                 </div>
-				</div>
-				<div class="col-md-1 column">
-					 <button type="button" class="btn btn-info">Search</button>
-				</div>
+        </div>
+        <div class="col-md-1 column">
+           <button type="submit" class="btn btn-info">Search</button>
+        </div>
                         </div>
-		          </div>
-
-			</div>
-		</div>
-		<div class="col-md-1 column">
-		 
-		</div>
-	</div>
-
-<!--search-->
+                        </form>
+              </div>
+      </div>
+    </div>
+    <div class="col-md-1 column">
+     
+    </div>
+  </div>
+  <!-- Search -->
    
    <!--DIV RESET YOUR PASSWORD -->
 		<div class="container">
@@ -272,6 +212,13 @@ body {
 
   <!--BOTTOM-->
 
-
+    <script>
+/* important to locate this script AFTER the closing form element, so form object is loaded in DOM before setup is called */
+    $.validate({
+        modules : 'date, security, sweden'
+        
+    });
+   
+</script>
 </body>
 </html>

@@ -38,86 +38,93 @@
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/scripts.js"></script>
+
+  <script src="js/form-validator/jquery.form-validator.min.js"></script>
 </head>
 
 <body>
-
-	<div class="row clearfix">
-		<div class="col-md-12 column">
-			<nav class="navbar navbar-default navbar-default-top navbar-fixed-top" role="navigation">
-				<div class="navbar-header">
-					 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="#">Perdtye</a>
-				</div>
-				
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+<!-- Header -->
+  <div class="row clearfix">
+    <div class="col-md-12 column">
+      <nav class="navbar navbar-default navbar-default-top navbar-fixed-top" role="navigation">
+        <div class="navbar-header">
+           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="#">Perdtye</a>
+        </div>
+        
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
                         
-						<li>
+            <li>
                             <a><b><Sukhumvit>"ประดินันทน์ เพชรเรืองรอง"</Sukhumvit></b></a>
                         </li>
                     </ul>
 
-					<ul class="nav navbar-nav navbar-right">
+          <ul class="nav navbar-nav navbar-right">
 
-                     
-						<li>
-							<a href="#">Sell</a>
-						</li>
                         <li>
-							<a href="#">Account</a>
-						</li>
+              <a href="login1.html">Login</a>
+            </li>
                         <li>
-							<a href="#">Logout</a>
-						</li>
+              <a href="signup1.html">Signup</a>
+            </li>
+            <li>
+              <a href="#">Sell</a>
+            </li>
+                        <li>
+              <a href="account.php">Account</a>
+            </li>
+                        <li>
+              <a href="#">Logout</a>
+            </li>
                         <li>
                             <a></a>
                         </li>
-                        
-
-					</ul>
-				</div>
-				
-			</nav>
-		</div>
-	</div>
-  	<div class="row clearfix bgsearchtop">
-		<div class="col-md-1 column">
-		</div>
-		<div class="col-md-10 column bgsearch">
-			<div class="row clearfix">
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+<!-- Header -->
+<!-- Search -->
+  <div class="row clearfix bgsearchtop">
+    <div class="col-md-1 column">
+    </div>
+    <div class="col-md-10 column bgsearch">
+      <div class="row clearfix">
                     <div class="col-md-3 column">
                         <div class="row clearfix">
                     <a href="index.php"><img src="img/logo.png" width="100%"/></a>
-		          </div></div>
+              </div></div>
 
                 <div class="col-md-9 column search" >
+                  <form method="get" action="search.php">
                     <div class="row clearfix" style="vertical-align:middle">
                     <div class="col-md-2 column">
-					<select class="form-control" id="select">
-                        <option>Category</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                      </select>
-				</div>
-				<div class="col-md-9 column">
-                    <div class="form-group">
-                  <input type="text" class="form-control" id="inputDefault" placeholder="Search">
-                </div>
-				</div>
-				<div class="col-md-1 column">
-					 <button type="button" class="btn btn-info">Search</button>
-				</div>
-                        </div>
-		          </div>
 
-			</div>
-		</div>
-		<div class="col-md-1 column">
-		 
-		</div>
-	</div>
+          <select class="form-control" id="select" name="category">
+                        <option value="all">All Listing</option>
+                        <option value="auc">Auction</option>
+                        <option value="buy">Buy it now</option>
+                      </select>
+        </div>
+        <div class="col-md-9 column">
+                    <div class="form-group">
+                  <input type="text" data-validation="required" class="form-control" id="inputDefault" placeholder="Search" name="search">
+                </div>
+        </div>
+        <div class="col-md-1 column">
+           <button type="submit" class="btn btn-info">Search</button>
+        </div>
+                        </div>
+                        </form>
+              </div>
+      </div>
+    </div>
+    <div class="col-md-1 column">
+     
+    </div>
+  </div>
+  <!-- Search -->
 <div class="container">  
 <div class="col-md-2"> 
 </div> 
@@ -129,9 +136,9 @@
 
   <div class="col-md-5 column">
   	<div class="btn-group">
-    <a href="#" class="btn btn-default" style="background-color:white;">All Listing</a>
-    <a href="#" class="btn btn-default">Auction</a>
-    <a href="#" class="btn btn-default">Buy it now</a>
+    <a href="search.php?category=all" class="btn btn-default" style="background-color:white;">All Listing</a>
+    <a href="search.php?category=auc" class="btn btn-default">Auction</a>
+    <a href="search.php?category=buy" class="btn btn-default">Buy it now</a>
   </div>
 </div>
  <div class="col-md-3 column">
@@ -143,10 +150,10 @@
  	<h4  style="text-align:center">Sort:</h4>
  </div>
   <div class="col-md-3 column">
-	<select class="form-control" id="select">
-                        <option>Best Match</option>
-                        <option>Price</option>
-                        <option>Favorite</option>
+	<select class="form-control" id="select" name="sortprice">
+                        <option value="1">Best Match</option>
+                        <option value="2">Price</option>
+                        <option value="3">Favorite</option>
                   
                       </select>
   </div>
@@ -238,6 +245,13 @@ for($x=0;$x<10;$x++){?>
   </div>
 
   <!--BOTTOM-->
-
+    <script>
+/* important to locate this script AFTER the closing form element, so form object is loaded in DOM before setup is called */
+    $.validate({
+        modules : 'date, security, sweden'
+        
+    });
+   
+</script>
 </body>
 </html>

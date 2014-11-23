@@ -46,6 +46,7 @@ body {
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/scripts.js"></script>
+	<script src="js/form-validator/jquery.form-validator.min.js"></script>
 </head>
 
 <body>
@@ -214,7 +215,6 @@ body {
 					<h4>
 						My Profile : Q/A
 					</h4> 
-					<!-- <button type="button" class="btn btn-default" style="width:100%">Buy</button>  -->
 					<a href="account.php" class="btn btn-default "style="width:100%">Bidding</a> 
 					<a href="accountdidntwin.php" class="btn btn-default"style="width:100%">Didn't Win</a> 
 					
@@ -336,7 +336,14 @@ body {
 
 
   <!--BOTTOM-->
-
+    <script>
+/* important to locate this script AFTER the closing form element, so form object is loaded in DOM before setup is called */
+    $.validate({
+        modules : 'date, security, sweden'
+        
+    });
+   
+</script>
 
 </body>
 </html>

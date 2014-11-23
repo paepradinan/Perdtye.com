@@ -46,6 +46,7 @@ body {
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/scripts.js"></script>
+	<script src="js/form-validator/jquery.form-validator.min.js"></script>
 </head>
 
 <body>
@@ -199,14 +200,11 @@ body {
 
 		<div class="col-md-8 column">
 <ul class="nav nav-tabs">
-  <li class="active"><a href="#home2" data-toggle="tab" aria-expanded="true">Summary</a></li>
-  <li class=""><a href="#profile2" data-toggle="tab" aria-expanded="false">Q/A</a></li>
+  <li class="active"><a data-toggle="tab" aria-expanded="true">Summary</a></li>
   
     
   
 </ul>
-<div id="myTabContent" class="tab-content">
-  <div class="tab-pane fade active in" id="home2">
    <div class="container">
 
 		<div class="col-md-12 column">
@@ -218,13 +216,13 @@ body {
 						My Profile : Bidding
 					</h4> 
 					<!-- <button type="button" class="btn btn-default" style="width:100%">Buy</button>  -->
-					<a href="account.php" class="btn btn-default  disabled"style="width:100%">Bidding</a> 
+					<a href="account.php" class="btn btn-default disabled"style="width:100%">Bidding</a> 
 					<a href="accountdidntwin.php" class="btn btn-default"style="width:100%">Didn't Win</a> 
 					
 						<a href="accounthistory.php" class="btn btn-default"style="width:100%">History</a>
 					
 						 <a href="accountsell.php" class="btn btn-default" style="width:100%">Sell</a>
-				
+						 <a href="accountQA.php" class="btn btn-default" style="width:100%">QA</a>
 				</div>
 				<p>&nbsp;</p>
 				<div class="col-md-8 column">
@@ -313,72 +311,7 @@ body {
   				</div>
  				 </div>
  				</div>
- 				 <div class="tab-pane fade" id="profile2">
-  				 		<div class="col-md-12 column">
-					<h4>
-						Q/A
-					</h4>
-					<table class="table"  style="table-layout: fixed; width: 100%">
-						<thead>
-							<tr>
-								<th width="5%">
-									#
-								</th>
-								<th width="25%">
-									Product
-								</th>
-								<th width="15%">
-									Shop
-								</th>
-								<th width="15%">
-									Time
-								</th>
-								<th width="20%">
-									Question
-								</th>
-								<th width="20%">
-									Answer
-								</th>
-							</tr>
-						</thead>
-
-						<tbody>
-							<?php for($x=1;$x<=10;$x++){?>
-							<tr class="active">
-								<td>
-									<?php echo $x ?>
-								</td>
-								<td>
-									<img src="img/iphone6 icon.jpg" width="100%"/>
-									<p style="margin-top:15px;"><center>Iphone6</center></p>
-								</td>
-								<td style="word-wrap: break-word;">
-									<text>Shop1</text>
-									<text>(feedback)</text>
-								</td>
-								<td>
-									<text>4h 42m left</text>
-								</td>
-								<td style="word-wrap: break-word;">
-									ฟหกฟกกาหกาก่รหกรหกห่กหกสหกวสหวกสหกๆไกืๆไำิๆืไอกเหกฟีห้กฟหทสทำส
-									
-								</td>
-								<td style="word-wrap: break-word;">
-									Waiting for answer from seller
-								</td>
-							</tr>
-							<?php
-						}
-						?>
-							
-							
-						</tbody>
-					</table>
-				</div>
- 
-  				</div>
-  				</div>
-			</div>
+ 				 
 		</div>
 	</div>
 </div>
@@ -425,7 +358,14 @@ body {
 
 
   <!--BOTTOM-->
-
+    <script>
+/* important to locate this script AFTER the closing form element, so form object is loaded in DOM before setup is called */
+    $.validate({
+        modules : 'date, security, sweden'
+        
+    });
+   
+</script>
 
 </body>
 </html>

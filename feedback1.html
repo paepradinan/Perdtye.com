@@ -46,25 +46,28 @@ body {
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/scripts.js"></script>
+
+  <script src="js/form-validator/jquery.form-validator.min.js"></script>
 </head>
 
 <body>
-
-	<div class="row clearfix">
-		<div class="col-md-12 column">
-			<nav class="navbar navbar-default navbar-default-top navbar-fixed-top" role="navigation">
-				<div class="navbar-header">
-					 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="#">Perdtye</a>
-				</div>
-				
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+<!-- Header -->
+  <div class="row clearfix">
+    <div class="col-md-12 column">
+      <nav class="navbar navbar-default navbar-default-top navbar-fixed-top" role="navigation">
+        <div class="navbar-header">
+           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="#">Perdtye</a>
+        </div>
+        
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
                         
-						<li>
+            <li>
                             <a><b><Sukhumvit>"ประดินันทน์ เพชรเรืองรอง"</Sukhumvit></b></a>
                         </li>
                     </ul>
-                    <ul class="nav navbar-nav navbar-right">
+
+          <ul class="nav navbar-nav navbar-right">
 
                         <li>
               <a href="login1.html">Login</a>
@@ -76,7 +79,7 @@ body {
               <a href="#">Sell</a>
             </li>
                         <li>
-              <a href="account.html">Account</a>
+              <a href="account.php">Account</a>
             </li>
                         <li>
               <a href="#">Logout</a>
@@ -84,12 +87,13 @@ body {
                         <li>
                             <a></a>
                         </li>
-                  </ul>
+          </ul>
         </div>
-        
       </nav>
     </div>
   </div>
+<!-- Header -->
+<!-- Search -->
   <div class="row clearfix bgsearchtop">
     <div class="col-md-1 column">
     </div>
@@ -101,34 +105,34 @@ body {
               </div></div>
 
                 <div class="col-md-9 column search" >
+                  <form method="get" action="search.php">
                     <div class="row clearfix" style="vertical-align:middle">
                     <div class="col-md-2 column">
-          <select class="form-control" id="select">
-                        <option>Category</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
+
+          <select class="form-control" id="select" name="category">
+                        <option value="all">All Listing</option>
+                        <option value="auc">Auction</option>
+                        <option value="buy">Buy it now</option>
                       </select>
         </div>
         <div class="col-md-9 column">
                     <div class="form-group">
-                  <input type="text" class="form-control" id="inputDefault" placeholder="Search">
+                  <input type="text" data-validation="required" class="form-control" id="inputDefault" placeholder="Search" name="search">
                 </div>
         </div>
         <div class="col-md-1 column">
-           <button type="button" class="btn btn-info">Search</button>
+           <button type="submit" class="btn btn-info">Search</button>
         </div>
                         </div>
+                        </form>
               </div>
-
-
-              </div>
+      </div>
     </div>
     <div class="col-md-1 column">
      
     </div>
   </div>
+  <!-- Search -->
 <!--REPORT-->
   <div class="container">
   <!-- FORM -->
@@ -196,7 +200,7 @@ body {
                         <div class="col-lg-9">
                           <h5 class="choice" style="color:grey;">Item is good as described</h5>
                           <span class="star-rating">
-                            <input type="radio" name="itemgood" value="1"><i></i>
+                            <input type="radio" name="itemgood" data-validation="required" value="1"><i></i>
                             <input type="radio" name="itemgood" value="2"><i></i>
                             <input type="radio" name="itemgood" value="3"><i></i>
                             <input type="radio" name="itemgood" value="4"><i></i>
@@ -204,7 +208,7 @@ body {
                           </span>
                           <h5 class="choice" style="color:grey;">Fast delivery</h5>
                           <span class="star-rating">
-                            <input type="radio" name="fastdeli" value="1"><i></i>
+                            <input type="radio" name="fastdeli" data-validation="required" value="1"><i></i>
                             <input type="radio" name="fastdeli" value="2"><i></i>
                             <input type="radio" name="fastdeli" value="3"><i></i>
                             <input type="radio" name="fastdeli" value="4"><i></i>
@@ -212,7 +216,7 @@ body {
                           </span>
                           <h5 class="choice" style="color:grey;">Seller service</h5>
                           <span class="star-rating">
-                            <input type="radio" name="sellser" value="1"><i></i>
+                            <input type="radio" name="sellser" data-validation="required" value="1"><i></i>
                             <input type="radio" name="sellser" value="2"><i></i>
                             <input type="radio" name="sellser" value="3"><i></i>
                             <input type="radio" name="sellser" value="4"><i></i>
@@ -229,7 +233,7 @@ body {
                         </div>
                         <!-- <label for="inputAbout" class="col-lg-3 control-label">About :</label> -->
                         <div class="col-lg-6">
-                          <textarea class="form-control" name="comment" rows="3" id="textArea" style="height:250px"></textarea>
+                          <textarea class="form-control" data-validation="required" name="comment" rows="3" id="textArea" style="height:250px"></textarea>
                     
                         </div>
                         <div class="col-lg-2">
@@ -314,7 +318,14 @@ body {
   </div>
 
   <!--BOTTOM-->
-
+    <script>
+/* important to locate this script AFTER the closing form element, so form object is loaded in DOM before setup is called */
+    $.validate({
+        modules : 'date, security, sweden'
+        
+    });
+   
+</script>
 
 </body>
 </html>
